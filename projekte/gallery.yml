@@ -1,0 +1,19 @@
+- caption: "Data Carpentries"
+  image: "projekte/carpentry.png"
+  href: "#carpentries"
+  
+- caption: "Data Challenges"
+  image: "projekte/challenges.png"
+  href: "#challenges"
+  
+- caption: "Kommunikationsformate"
+  image: "projekte/communication.png"
+  href: "#communication"
+
+- caption: "Hermes Hub"
+  image: "projekte/network-hub.png"
+  href: "#hub"
+
+- caption: "Bring your own Data Lab"
+  image: "projekte/science-research.png.png"
+  href: "#labs"

@@ -20,8 +20,18 @@ website:
           - veranstaltungen/einreichen.qmd
       - text: Blog
         file: blog/index.qmd        
-      - file: projekte/index.qmd 
-        text: Formate
+      - text: Formate
+        menu:
+          - projekte/index.qmd
+          - projekte/carpentries.qmd
+          - projekte/challenges.qmd
+          - projekte/communication.qmd
+          - projekte/hub.qmd
+          - projekte/labs.qmd
+          - projekte/oer.qmd
+          - projekte/stipendien.qmd
+          - projekte/transfer.qmd
+          - projekte/wisskomm.qmd
       - href: contact.qmd
         text: "Kontakt"
 

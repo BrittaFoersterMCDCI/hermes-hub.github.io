@@ -1,19 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/projekte/labs.html",
-      "/projekte/carpentries.html",
-      "/projekte/challenges.html",
-      "/projekte/stipendien.html",
-      "/projekte/hub.html",
-      "/projekte/communication.html",
-      "/projekte/oer.html",
-      "/projekte/transfer.html",
-      "/projekte/wisskomm.html"
-    ]
-  },
-  {
     "listing": "/projekte/index.html",
     "items": [
       "/projekte/labs.html",
@@ -28,18 +14,32 @@
     ]
   },
   {
-    "listing": "/veranstaltungen/index.html",
+    "listing": "/index.html",
     "items": [
-      "/veranstaltungen/intern/dhistory.html",
-      "/veranstaltungen/intern/fair.html",
-      "/veranstaltungen/intern/talks.html",
-      "/veranstaltungen/intern/visual.html"
+      "/projekte/labs.html",
+      "/projekte/carpentries.html",
+      "/projekte/challenges.html",
+      "/projekte/stipendien.html",
+      "/projekte/hub.html",
+      "/projekte/communication.html",
+      "/projekte/oer.html",
+      "/projekte/transfer.html",
+      "/projekte/wisskomm.html"
     ]
   },
   {
     "listing": "/blog/index.html",
     "items": [
       "/blog/2024/01/index.html"
+    ]
+  },
+  {
+    "listing": "/veranstaltungen/index.html",
+    "items": [
+      "/veranstaltungen/intern/dhistory.html",
+      "/veranstaltungen/intern/fair.html",
+      "/veranstaltungen/intern/talks.html",
+      "/veranstaltungen/intern/visual.html"
     ]
   },
   {
