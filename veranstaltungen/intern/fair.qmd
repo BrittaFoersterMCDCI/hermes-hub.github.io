@@ -1,0 +1,22 @@
+---
+title: "FAIR Impact Events"
+subtitle: "FAIR practices for FAIR Dataspaces in the German research community"
+date: 24/01/2024
+description: <a href=https://fair-impact.eu/events/fair-impact-events/fair-practices-fair-dataspaces-german-research-community> FAIR </a>
+categories: 
+  - digital digital
+  - digital humanities
+  - FAIR
+---
+
+The FAIR National Roadshow series is visiting Germany on the 24th of January 2024. The event will be virtually hosted by NFDI, the German National Research Data Infrastructure. The event will focus on how Germany, and NFDI in particular, is moving forward with the definition and setting up of FAIR Data spaces, as common, cloud-based data spaces for industry and research in compliance with the FAIR Principles, i.e., to share data in a findable, accessible, interoperable, reusable way.
+
+The agenda will see presentations about Base4NFDI and the FAIR Data Spaces projects, as well as community based best practices from the FAIR-IMPACT project.
+
+Target audience: German Research community at large
+
+Language: English
+
+Date: 24 January 2024, 14:00 - 16:30 CET
+
+Moderator: York Sure-Vetter, Director of NFDI (German National Research Data Infrastructure) , chair of the FAIR-IMPACT High Level Advisory Committee and professor at the Karlsruhe Institute of Technology (KIT)

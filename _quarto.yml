@@ -1,5 +1,32 @@
 project:
-  title: "hermes-hub"
+  type: website
+  output-dir: public
+lang: de
 
+website:
+  title: "Hermeshub"
+  comments: 
+    hypothesis:
+      openSidebar: false
+  navbar:
+    left:
+      - text: Home
+        file: index.qmd        
+      - text: Personen
+        file: personen/index.qmd        
+      - text: Veranstaltungen
+        menu:
+          - veranstaltungen/index.qmd
+          - veranstaltungen/einreichen.qmd
+      - text: Blog
+        file: blog/index.qmd        
+      - file: projekte/index.qmd 
+        text: Formate
+      - href: contact.qmd
+        text: "Kontakt"
 
-
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

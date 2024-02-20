@@ -1,0 +1,6 @@
+---
+title: "Hermes Hub"
+image: network-hub.png
+description: Vernetzung zwischen Akteur:innen und Disziplinen mit Micropublikationen stärken
+---
+Der HERMES-Hub wird die zentrale Kommunikationsplattform des Datenkompetenzzentrums. Als zentrale Einrichtung ist es sowohl eine technische als auch eine soziale Plattform, die der Informationsvermittlung bezüglich der Aktivitäten und Angebote des DKZ dient, aber v. a. der Vernetzung und dem Austausch aller Akteur*innen im Bereich Vermittlung und Weiterentwicklung von Datenkompetenzen in den Geisteswissenschaften. Die Plattform soll dem Open-Science-Verständnis von HERMES gerecht werden, um die Vernetzung aller Akteur*innen (Produzierende wie auch Konsumierende der HERMES-Angebote) zu verstärken und sie in einen lebhaften, sich gegenseitig befruchtenden Austausch über datenwissenschaftliche Methoden und Forschungsdatenmanagement in den Geisteswissenschaften und deren Vermittlung zu bringen.

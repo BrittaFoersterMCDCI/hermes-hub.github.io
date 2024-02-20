@@ -1,0 +1,13 @@
+---
+title: "Blog"
+website:
+  comments: 
+    hypothesis:
+      openSidebar: true
+listing:
+  contents:
+    - eintrag1blog.qmd
+---
+## HERMES BLOG  
+
+bitte kommentieren.

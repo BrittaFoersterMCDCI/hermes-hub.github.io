@@ -1,0 +1,20 @@
+---
+title: "Webinar: A Beginner's Guide to Data Visualisation"
+subtitle: "Webinar"
+date: 18/01/2024
+description: <a href=https://www.ghga.de/events/detail/webinar-a-beginners-guide-to-data-visualisation>Visualisation </a>
+categories: 
+  - digital digital
+  - digital humanities
+  - visualization
+---
+
+Effective communication of scientific results relies heavily on good data visualisation, whether we aim to communicate with a lay audience or other scientists.
+
+In this webinar, we will give an overview of good data visualisation practices and techniques and cover additional aspects like inclusive design choices, storytelling, and interactive visualizations. This webinar will mostly cover concepts, but not teach technical examples in specific coding languages. For a technical introduction, see the Data Visualisation in R and Python webinar in February 2024.
+
+This webinar aims at early career researchers, clinicians, bioinformaticians and everyone working on or interested in communicating scientific results through meaningful visualisations.
+
+The seminar will be given by GHGA workflows expert Florian Heyl.
+
+The event is in English and will be held on 18 January 2023, 16:00 CET (available afterwards on demand). Attendance is free, but we ask for registration.

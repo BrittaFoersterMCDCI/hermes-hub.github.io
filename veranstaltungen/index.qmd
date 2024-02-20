@@ -1,0 +1,34 @@
+---
+title: "Veranstaltungen"
+format:
+  html:
+    html-table-processing: none
+lang: de
+listing:
+  - id: veranstaltungen
+    type: table 
+    fields: [date, title, subtitle, description]
+    categories: true
+    filter-ui: true
+    sort-ui: [title, date]
+    field-display-names:
+        datum: "Datum"
+        title: "Titel"
+        subtitle: "Beschreibung"
+        description: "Weblink"
+    contents:
+      - intern/dhistory.qmd
+      - intern/fair.qmd
+      - intern/talks.qmd
+      - intern/visual.qmd
+      - extern/events_extern.yml
+---
+
+
+:::{#veranstaltungen}
+
+:::
+
+
+
+

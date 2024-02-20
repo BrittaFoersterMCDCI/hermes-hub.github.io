@@ -1,0 +1,35 @@
+---
+title: "Veranstaltungen eintragen"
+format:
+  html:
+    html-table-processing: none
+lang: de
+---
+
+Tragen Sie Ihre Veranstaltung ein:
+
+<form>
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Institution:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="fname">Name der Veranstaltung:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="start">Datum:</label>
+  <input type="date" id="start" name="trip-start" value="2023-01-01" min="2023-01-01" max="203512-31" /><br>
+  <h4>Inhalte</h4>
+  <input type="radio" id="general" name="fav_language" value="General">
+  <label for="general">General</label><br>
+  <input type="radio" id="literacy" name="fav_language" value="literacy">
+  <label for="literacy">Data Literacy</label><br>
+  <input type="radio" id="humanities" name="fav_language" value="humanities">
+  <label for="humanities">Digital Humanities</label>
+  <h4>Veranstaltung</h4>
+  <input type="checkbox" id="a" name="Digital" value="Digital">
+  <label for="vehicle1"> Die Veranstaltung ist rein digital</label><br>
+  <input type="checkbox" id="b" name="Präsenz" value="Präsenz">
+  <label for="vehicle2"> Die Veranstaltung findet vor Ort statt</label><br>
+  <input type="checkbox" id="c" name="Hybrid" value="Hybrid">
+  <label for="vehicle3"> Die Veranstaltung wird hybride abgehalten</label><br><br>
+  <input type="submit" value="Submit">
+</form>

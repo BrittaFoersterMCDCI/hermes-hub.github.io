@@ -1,0 +1,7 @@
+---
+title: "Data Challenges"
+image: data-research.png
+description: Geisteswissenschaftliche Datensätze und algorithmische Analyseverfahren
+---
+
+Data Challenges sind ein Format, das bereits in verschiedenen Wissenschaftsbereichen als auch zur Bearbeitung gesellschaftlicher Fragestellungen eingesetzt und etabliert wurde. Für den Bereich der geistes- und kulturwissenschaftlichen Daten gibt es hingegen bisher erst wenige Modelle, auch wenn der Einsatz computergestützter Analyseverfahren und insbesondere von Ansätzen des maschinellen Lernens auch in diesem Feld kontinuierlich steigt. Die im Rahmen von HERMES geplanten Data Challenges verfolgen daher das Ziel, die Bearbeitung von geistes- und kulturwissenschaftlichen Fragestellungen mit Hilfe von (großen) Datenbeständen und algorithmischen Analyseverfahren zu fördern und dadurch methodische Weiterentwicklungen anzuregen.

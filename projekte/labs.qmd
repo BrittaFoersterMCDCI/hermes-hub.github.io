@@ -1,0 +1,7 @@
+---
+title: "Bring-your-own-data-labs"
+image: science-research.png
+description: "Praxis- und forschungsorientierte Beratung zur Arbeit mit eigenen Daten"
+---
+
+Fortgeschrittene Wissenschaftler\*innen, die Zugriff auf spezifische Datensätze haben, benötigen individuell auf die Forschungsvorhaben zugeschnittene Datenkompetenzen und Austauschangebote. In den Bring-your-own-data-Labs erfolgt diese Beratung und Vermittlung praxis- und forschungsorientiert daher individuell oder in kleinen Gruppen. Das Format befähigt die Forscher\*innen, ihre Kenntnisse in bestimmten Methoden zu vertiefen bzw. neue Ansätze kennenzulernen und diese unmittelbar und mit Begleitung auf ihren Forschungsgegenstand anzuwenden. Als Beratungs- und Begleitungsformat, das am Beginn oder auch im weiteren Verlauf des Forschungszyklus stehen kann, ist dieses Angebot ideal für Post-Graduierte mit Forschungsfragen und Datensätzen für konkrete Forschungsprojekte.

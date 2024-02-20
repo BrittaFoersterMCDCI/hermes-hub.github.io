@@ -1,0 +1,6 @@
+---
+title: "Virtual Wisskomm Academy"
+image: knowledge-sharing.png
+description: Datengetriebene Forschung kommunikativ auf den Punkt bringen
+---
+Im Rahmen der WissKomm Academy der ADW und des Studiengangs Online Journalismus und Wissenschaftskommunikation der Hochschule Darmstadt baut HERMES ein Format auf, das Kompetenzen in der Wissenschaftskommunikation insbesondere zu datengetriebener Forschung in den Geistes- und Kulturwissenschaften vermittelt. Es soll die kommunikativen und medialen Fähigkeiten der Teilnehmenden ausbauen und zugleich die Vermittlung neuer digitaler Forschungsmethoden in die verschiedenen Fachcommunitys fördern.

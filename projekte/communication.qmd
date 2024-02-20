@@ -1,0 +1,6 @@
+---
+title: "Kommunikationsformate"
+image: communication.png
+description: Über die Potenziale datengetriebener Forschung in den Geistes- und Kulturwissenschaften informieren
+---
+Im Rahmen von HERMES werden verschiedene niedrigschwellige Kommunikationsformate entwickelt, die vorrangig den wissenschaftlichen Nachwuchs sowie junge Mitarbeitende in GLAM-Einrichtungen adressieren, um über die Potentiale datengetriebener geistes- und kulturwissenschaftlicher Forschung zu informieren und dafür zu sensibilisieren. Sie werden dabei zugleich in die Lage versetzt, Anforderungen an die konkrete Anwendung datengestützter Methoden, sei es in Forschung, Lehre oder datenkuratorischer Praxis, einzuschätzen und kritisch zu reflektieren. Entsprechend werden insbesondere auch Themen aus dem Bereich Data Criticism behandelt, was in diesem Fall einen methodenkritischen Ansatz miteinschließt.

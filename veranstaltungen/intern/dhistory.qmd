@@ -1,0 +1,92 @@
+---
+title: "Digital History"
+subtitle: "Offenes Forschungskolloquium"
+date: 15/11/2024
+description: <a href= https://dhistory.hypotheses.org/digital-history-forschungskolloquium/wintersemester-2023-2024>Digital Hisotry Website</a>
+categories: 
+  - digital
+  - digital humanities
+  - Berlin
+---
+
+PROGRAMM WINTERSEMESTER 2023/2024
+Digital History – Offenes Forschungskolloquium (via Zoom)
+
+15. November
+Aktuelle Abschlussarbeiten
+
+Olga Mlynarczyk (Humboldt-Universität zu Berlin)
+Learning to think like the past. Applicability of retrieval augmented LLMs in historical research
+Zum Abstract
+
+Lukas Sebold (Humboldt-Universität zu Berlin) 
+Text Reuse in Anna Komnenes „Alexias“ (ca. 1148) – ein digitaler und geschlechtergeschichtlicher Ansatz in byzantinischer Historiographie
+Zum Abstract
+
+22. November
+Pauline Spychala (Deutsches Historisches Institut Paris) 
+EScriptorium und Transkribus im Spiegel: Vorläufige Schritte zum Training eines HTR-Modells an französischen spätmittelalterlichen Quellen
+Zum Abstract
+Vortragsaufzeichnung [YouTube]
+
+29. November
+Annabel Walz (Friedrich-Ebert-Stiftung)
+Mit Eimer und Sieb im Datenmeer: Wie entstehen archivierte Webseiten und wie kann man sie verstehen?
+Zum Abstract
+Vortragsaufzeichnung [YouTube]
+
+6. Dezember
+Data for History Lectures*
+Ingo Frank (Leibniz-Institut für Ost- und Südosteuropaforschung (IOS), Herzog August Bibliothek Wolfenbüttel)
+Ontology Design Patterns for History: Modeling Place-based Information in the Digital Map Lab Holy Roman Empire
+Zum Abstract
+Vortragsaufzeichnung [YouTube]
+
+13. Dezember
+Miriam Schirmer (Universität Regensburg)
+Natural Language Processing in der Genozidforschung
+Zum Abstract
+Vortragsaufzeichnung [YouTube]
+
+20. Dezember
+– Termin entfällt –
+
+10. Januar
+Nina Rastinger (Austrian Centre for Digital Humanities and Cultural Heritage) 
+Kleine Texte, dichte Daten: Listen in historischen Zeitungen als Schatz für die Digital Humanities
+Zum Abstract
+Vortragsaufzeichnung [YouTube]
+
+17. Januar
+– NFDI4Memory
+Torsten Hiltmann, Till Grallert, Claudia Prinz (NFDI4Memory, Humboldt-Universität zu Berlin), Marie von Lüneburg, Christiane Weber (Verband der Historiker und Historikerinnen Deutschlands)
+Von Methoden, Epistemologien und Publikationskulturen im Zeitalter der rapiden Datafizierung der Geschichtswissenschaften. Die Task Area 5 “Data Culture” im NFDI-Konsortium 4Memory stellt sich vor
+Zum Abstract
+Vortragsaufzeichnung [YouTube]
+
+24. Januar
+Mia Ridge (The British Library), Kaspar Beelen (School of Advanced Study, University of London)
+Living with Machines: scaling up historical practice with digital machines
+Zum Abstract
+
+31. Januar
+Anna Siebold (Max-Planck-Institut für Wissenschaftsgeschichte, Universität Oldenburg) 
+“Where there is no data, there is no network.“ Merkmale, Ideale und Best Practice Kriterien der historischen Netzwerkforschung
+
+7. Februar
+Thea Sommerschield (Ca’ Foscari University of Venice, ab 2024: University of Nottingham) 
+Machine Learning for Ancient Languages: Trends, challenges, and future prospects for a digital ancient history (Titel aktualisiert am 22.01.24)
+
+ 
+
+Zeit: Mittwochs, 16-18 Uhr c.t.
+Ort: Videokonferenz via Zoom
+
+Wenn Sie an der Veranstaltung gern teilnehmen möchten, melden Sie sich bitte einfach per Email bei uns: digitalhistory@hu-berlin.de.
+
+ 
+
+logo youtube  Auch in diesem Semester werden einige Vorträge aufgezeichnet und im Anschluss auf dem YouTube-Kanal der Professur veröffentlicht.
+*  Die Vorträge im Rahmen der Data for History Lectures werden in Kooperation mit dem “Data for History”-Konsortium organisiert. Dabei wird es vor allem um Themen wie Datenmodellierung, Semantic Web und Linked (Open) Data sowie die damit verbundenen Herausforderungen für die historische Forschung gehen. Sie sind als internationale Plattform für all jene gedacht, die sich für Fragen der Bereitstellung und Modellierung historischer Daten interessieren.
+
+Die wichtigsten Informationen rund um das Forschungskolloquium “Digital History” erhalten Sie bequem per E-Mail über die offene Mailingliste.

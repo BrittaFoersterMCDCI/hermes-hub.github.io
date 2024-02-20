@@ -1,0 +1,9 @@
+---
+title: "Personen"
+listing:
+    contents:
+      - hagener.qmd
+    type: grid
+---
+
+Mitarbeiter*innen

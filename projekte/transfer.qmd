@@ -1,0 +1,6 @@
+---
+title: "Transferwerkstatt"
+image: file-transfer.png
+description: Datenkompetenzen mit wissenschaftsnahen Praxispartnern aus dem GLAM-Sektor anwenden und weiterentwickeln
+---
+Im Fokus der Transferwerkstatt steht der Aufbau und Ausbau von Kompetenz hinsichtlich der wissenschaftlichen Arbeit mit Kulturdaten in und an GLAM-Institutionen. Dabei legt der Schwerpunkt wie schon in anderen Aktivitätsfeldern von HERMES auf Methodenkompetenz und deren epistemologische Fundierung durch Theoriebildung und -einbindung. Besonderheit der Transferwerkstatt ist es dabei, den jeweils spezifischen Blick von Forschung und GLAM-Sektor auf Kulturdaten und den Umgang mit ihnen in einen verstärkten Dialog miteinander zu bringen. Und darüber die in diesem Zusammenhang derzeit laufenden Veränderungen des GLAM-Berufsfelds zu reflektieren und zu informieren.

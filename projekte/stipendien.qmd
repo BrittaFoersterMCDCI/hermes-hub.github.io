@@ -1,0 +1,7 @@
+---
+title: "Forschungsstudienprogramm"
+image: pencil.png
+description: Forschungsstipendien für die Arbeit mit Daten im Kontext von HERMES
+---
+
+Forschungsstipendien ermöglichen nicht nur einzelnen Forscher*innen, ihre individuelle Forschung durchzuführen, sie dienen im Zusammenhang von HERMES ebenso als Instrument zur Herstellung von kollaborativen Lern- und Forschungsräumen. Im HERMES-Stipendienprogramm können Forschende durch eine Förderung an den beteiligten Einrichtungen auf Datenbestände, Dateninfrastrukturen, datenwissenschaftliche Expertise und Weiterbildungsmöglichkeiten zurückgreifen. Die Stipendien zielen damit auf einen forschungsnahen und datenorientierten Erwerb von Datenkompetenzen ab, unterstützen aber zugleich auch eine stärkere Vernetzung innerhalb des wissenschaftlichen Feldes wie eine Etablierung derartiger Methoden in den entsprechenden Fächern. Ausgehend von den existierenden Stipendienprogrammen an der DNB und am IEG werden im Rahmen von HERMES sowohl zusätzliche Forschungsstipendien vergeben als auch die bestehenden Programme konzeptionell weiterentwickelt.

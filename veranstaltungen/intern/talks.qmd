@@ -1,0 +1,20 @@
+---
+title: "NFDI Talks"
+subtitle: "Impulse und Austausch: Die NFDITalks"
+date: 18/01/2024
+description: <a href=https://www.nfdi.de/talks/>NFDI Talks </a>
+categories: 
+  - digital digital
+  - digital humanities
+  - NFDI Talks
+---
+
+In unseren NFDITalks geben wir Einblicke in die Vielfalt von NFDI. Expert:innen aus verschiedenen Fachrichtungen sprechen über Themen des Forschungsdatenmanagements, neue Services, Use Cases und mehr.
+
+Die Online-Talks sind regelmäßig montags von 16 bis 17 Uhr und in der Regel in englischer Sprache. Über Zoom hat das Publikum die Gelegenheit, Fragen an die Vortragenden zu richten und in einen direkten Dialog zu treten. Auch Personen außerhalb unserer NFDI-Community können sich registrieren. Nutzen Sie hierzu bitte das untenstehende Formular. Die Talks werden außerdem für alle zugänglich live auf YouTube übertragen und im Anschluss auf unserem Kanal NFDI archiviert. 
+
+In unserer Terminübersicht sehen Sie, wann die nächsten NFDITalks geplant sind.
+
+Das Format NFDITalks führt ab Januar 2024 die beiden Talkformate InfraTalk und ToolTalk zusammen. Die Vorträge sind in zwei YouTube-Playlists gespeichert: InfraTalk-Playlist und ToolTalk-Playlist.
+
+Registrierung für NFDITalks über Zoom
