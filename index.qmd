@@ -19,7 +19,7 @@ listing:
     template: partner/partner.ejs
     contents: partner.yml
   - id: foerderung
-    template: partner/partner.ejs
+    template: partner/foerderung.ejs
     contents: foerderung.yml
 ---
 
