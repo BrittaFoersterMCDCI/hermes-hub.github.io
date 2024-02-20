@@ -21,137 +21,11 @@
     "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Hermes Blog",
+    "objectID": "blog/2024/01/penguins.html",
+    "href": "blog/2024/01/penguins.html",
+    "title": "Palmer Penguins (.ipynb)",
     "section": "",
-    "text": "Ein datenwissenschaftlicher Blogbeitrag\n\n\nEine Reise durch die Möglichkeiten von Quarto\n\n\nDieser Beitrag illustriert, welche Möglichkeiten bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren.\n\n\n\n\n\n17.02.2024\n\n\nMalte Hagener, Andrea Rapp\n\n\n\n\n\n\nKeine Treffer"
-  },
-  {
-    "objectID": "blog/index.html#hermes-blog",
-    "href": "blog/index.html#hermes-blog",
-    "title": "Blog",
-    "section": "",
-    "text": "bitte kommentieren."
-  },
-  {
-    "objectID": "projekte/communication.html",
-    "href": "projekte/communication.html",
-    "title": "Kommunikationsformate",
-    "section": "",
-    "text": "Im Rahmen von HERMES werden verschiedene niedrigschwellige Kommunikationsformate entwickelt, die vorrangig den wissenschaftlichen Nachwuchs sowie junge Mitarbeitende in GLAM-Einrichtungen adressieren, um über die Potentiale datengetriebener geistes- und kulturwissenschaftlicher Forschung zu informieren und dafür zu sensibilisieren. Sie werden dabei zugleich in die Lage versetzt, Anforderungen an die konkrete Anwendung datengestützter Methoden, sei es in Forschung, Lehre oder datenkuratorischer Praxis, einzuschätzen und kritisch zu reflektieren. Entsprechend werden insbesondere auch Themen aus dem Bereich Data Criticism behandelt, was in diesem Fall einen methodenkritischen Ansatz miteinschließt."
-  },
-  {
-    "objectID": "projekte/wisskomm.html",
-    "href": "projekte/wisskomm.html",
-    "title": "Virtual Wisskomm Academy",
-    "section": "",
-    "text": "Im Rahmen der WissKomm Academy der ADW und des Studiengangs Online Journalismus und Wissenschaftskommunikation der Hochschule Darmstadt baut HERMES ein Format auf, das Kompetenzen in der Wissenschaftskommunikation insbesondere zu datengetriebener Forschung in den Geistes- und Kulturwissenschaften vermittelt. Es soll die kommunikativen und medialen Fähigkeiten der Teilnehmenden ausbauen und zugleich die Vermittlung neuer digitaler Forschungsmethoden in die verschiedenen Fachcommunitys fördern."
-  },
-  {
-    "objectID": "projekte/hub.html",
-    "href": "projekte/hub.html",
-    "title": "Hermes Hub",
-    "section": "",
-    "text": "Der HERMES-Hub wird die zentrale Kommunikationsplattform des Datenkompetenzzentrums. Als zentrale Einrichtung ist es sowohl eine technische als auch eine soziale Plattform, die der Informationsvermittlung bezüglich der Aktivitäten und Angebote des DKZ dient, aber v. a. der Vernetzung und dem Austausch aller Akteurinnen im Bereich Vermittlung und Weiterentwicklung von Datenkompetenzen in den Geisteswissenschaften. Die Plattform soll dem Open-Science-Verständnis von HERMES gerecht werden, um die Vernetzung aller Akteurinnen (Produzierende wie auch Konsumierende der HERMES-Angebote) zu verstärken und sie in einen lebhaften, sich gegenseitig befruchtenden Austausch über datenwissenschaftliche Methoden und Forschungsdatenmanagement in den Geisteswissenschaften und deren Vermittlung zu bringen."
-  },
-  {
-    "objectID": "projekte/labs.html",
-    "href": "projekte/labs.html",
-    "title": "Bring-your-own-data-labs",
-    "section": "",
-    "text": "Fortgeschrittene Wissenschaftler*innen, die Zugriff auf spezifische Datensätze haben, benötigen individuell auf die Forschungsvorhaben zugeschnittene Datenkompetenzen und Austauschangebote. In den Bring-your-own-data-Labs erfolgt diese Beratung und Vermittlung praxis- und forschungsorientiert daher individuell oder in kleinen Gruppen. Das Format befähigt die Forscher*innen, ihre Kenntnisse in bestimmten Methoden zu vertiefen bzw. neue Ansätze kennenzulernen und diese unmittelbar und mit Begleitung auf ihren Forschungsgegenstand anzuwenden. Als Beratungs- und Begleitungsformat, das am Beginn oder auch im weiteren Verlauf des Forschungszyklus stehen kann, ist dieses Angebot ideal für Post-Graduierte mit Forschungsfragen und Datensätzen für konkrete Forschungsprojekte."
-  },
-  {
-    "objectID": "projekte/challenges.html",
-    "href": "projekte/challenges.html",
-    "title": "Data Challenges",
-    "section": "",
-    "text": "Data Challenges sind ein Format, das bereits in verschiedenen Wissenschaftsbereichen als auch zur Bearbeitung gesellschaftlicher Fragestellungen eingesetzt und etabliert wurde. Für den Bereich der geistes- und kulturwissenschaftlichen Daten gibt es hingegen bisher erst wenige Modelle, auch wenn der Einsatz computergestützter Analyseverfahren und insbesondere von Ansätzen des maschinellen Lernens auch in diesem Feld kontinuierlich steigt. Die im Rahmen von HERMES geplanten Data Challenges verfolgen daher das Ziel, die Bearbeitung von geistes- und kulturwissenschaftlichen Fragestellungen mit Hilfe von (großen) Datenbeständen und algorithmischen Analyseverfahren zu fördern und dadurch methodische Weiterentwicklungen anzuregen."
-  },
-  {
-    "objectID": "veranstaltungen/intern/visual.html",
-    "href": "veranstaltungen/intern/visual.html",
-    "title": "Webinar: A Beginner’s Guide to Data Visualisation",
-    "section": "",
-    "text": "Effective communication of scientific results relies heavily on good data visualisation, whether we aim to communicate with a lay audience or other scientists.\nIn this webinar, we will give an overview of good data visualisation practices and techniques and cover additional aspects like inclusive design choices, storytelling, and interactive visualizations. This webinar will mostly cover concepts, but not teach technical examples in specific coding languages. For a technical introduction, see the Data Visualisation in R and Python webinar in February 2024.\nThis webinar aims at early career researchers, clinicians, bioinformaticians and everyone working on or interested in communicating scientific results through meaningful visualisations.\nThe seminar will be given by GHGA workflows expert Florian Heyl.\nThe event is in English and will be held on 18 January 2023, 16:00 CET (available afterwards on demand). Attendance is free, but we ask for registration."
-  },
-  {
-    "objectID": "veranstaltungen/intern/fair.html",
-    "href": "veranstaltungen/intern/fair.html",
-    "title": "FAIR Impact Events",
-    "section": "",
-    "text": "The FAIR National Roadshow series is visiting Germany on the 24th of January 2024. The event will be virtually hosted by NFDI, the German National Research Data Infrastructure. The event will focus on how Germany, and NFDI in particular, is moving forward with the definition and setting up of FAIR Data spaces, as common, cloud-based data spaces for industry and research in compliance with the FAIR Principles, i.e., to share data in a findable, accessible, interoperable, reusable way.\nThe agenda will see presentations about Base4NFDI and the FAIR Data Spaces projects, as well as community based best practices from the FAIR-IMPACT project.\nTarget audience: German Research community at large\nLanguage: English\nDate: 24 January 2024, 14:00 - 16:30 CET\nModerator: York Sure-Vetter, Director of NFDI (German National Research Data Infrastructure) , chair of the FAIR-IMPACT High Level Advisory Committee and professor at the Karlsruhe Institute of Technology (KIT)"
-  },
-  {
-    "objectID": "veranstaltungen/index.html",
-    "href": "veranstaltungen/index.html",
-    "title": "Veranstaltungen",
-    "section": "",
-    "text": "Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nBeschreibung\n\n\nWeblink\n\n\n\n\n\n\n11.03.2025\n\n\nDigital History\n\n\nOffenes Forschungskolloquium\n\n\nDigital Hisotry Website\n\n\n\n\n01.12.2025\n\n\nFAIR Impact Events\n\n\nFAIR practices for FAIR Dataspaces in the German research community\n\n\n FAIR \n\n\n\n\n12.10.2024\n\n\nFAIRmat Tutorial 12 Getting started with NOMAD and NOMAD Oasis for research data management (RDM)\n\n\nonline\n\n\nLink\n\n\n\n\n13.02.2024\n\n\nLove Data Week NFDIxCS Workshop Containerize Software – Why is it useful, and how do I do this?\n\n\nPotsdam\n\n\nLink\n\n\n\n\n01.06.2025\n\n\nNFDI Talks\n\n\nImpulse und Austausch: Die NFDITalks\n\n\nNFDI Talks \n\n\n\n\n01.06.2025\n\n\nWebinar: A Beginner’s Guide to Data Visualisation\n\n\nWebinar\n\n\nVisualisation \n\n\n\n\n\nKeine Treffer"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Kontakt aufnehmen",
-    "section": "",
-    "text": "Haben Sie Fragen zum geplanten Datenkompetenzzentrum HERMES oder Feedback zu den Vermittlungsformaten? Nehmen Sie gerne Kontakt zu uns auf! Wir freuen uns über Rückmeldungen aus der geistes- und kulturwissenschaftlichen Community und nehmen Anregungen gerne für die Entwicklung von HERMES mit auf. HERMES ist eine von 22 Initiativen, die sich aktuell um eine Förderung im Rahmen der Ausschreibung des BMBF zur Förderung von Datenkompetenzzentren in der Wissenschaft bewerben.\nSie erreichen uns unter der folgenden Adresse: mcdci@uni-marburg.de"
-  },
-  {
-    "objectID": "veranstaltungen/einreichen.html",
-    "href": "veranstaltungen/einreichen.html",
-    "title": "Veranstaltungen eintragen",
-    "section": "",
-    "text": "Tragen Sie Ihre Veranstaltung ein:\n\nName:  Institution:  Name der Veranstaltung:  Datum: \n\nInhalte\n\n General  Data Literacy  Digital Humanities\n\nVeranstaltung\n\n  Die Veranstaltung ist rein digital   Die Veranstaltung findet vor Ort statt   Die Veranstaltung wird hybride abgehalten"
-  },
-  {
-    "objectID": "veranstaltungen/intern/talks.html",
-    "href": "veranstaltungen/intern/talks.html",
-    "title": "NFDI Talks",
-    "section": "",
-    "text": "In unseren NFDITalks geben wir Einblicke in die Vielfalt von NFDI. Expert:innen aus verschiedenen Fachrichtungen sprechen über Themen des Forschungsdatenmanagements, neue Services, Use Cases und mehr.\nDie Online-Talks sind regelmäßig montags von 16 bis 17 Uhr und in der Regel in englischer Sprache. Über Zoom hat das Publikum die Gelegenheit, Fragen an die Vortragenden zu richten und in einen direkten Dialog zu treten. Auch Personen außerhalb unserer NFDI-Community können sich registrieren. Nutzen Sie hierzu bitte das untenstehende Formular. Die Talks werden außerdem für alle zugänglich live auf YouTube übertragen und im Anschluss auf unserem Kanal NFDI archiviert.\nIn unserer Terminübersicht sehen Sie, wann die nächsten NFDITalks geplant sind.\nDas Format NFDITalks führt ab Januar 2024 die beiden Talkformate InfraTalk und ToolTalk zusammen. Die Vorträge sind in zwei YouTube-Playlists gespeichert: InfraTalk-Playlist und ToolTalk-Playlist.\nRegistrierung für NFDITalks über Zoom"
-  },
-  {
-    "objectID": "veranstaltungen/intern/dhistory.html",
-    "href": "veranstaltungen/intern/dhistory.html",
-    "title": "Digital History",
-    "section": "",
-    "text": "PROGRAMM WINTERSEMESTER 2023/2024 Digital History – Offenes Forschungskolloquium (via Zoom)\n\nNovember Aktuelle Abschlussarbeiten\n\nOlga Mlynarczyk (Humboldt-Universität zu Berlin) Learning to think like the past. Applicability of retrieval augmented LLMs in historical research Zum Abstract\nLukas Sebold (Humboldt-Universität zu Berlin) Text Reuse in Anna Komnenes „Alexias“ (ca. 1148) – ein digitaler und geschlechtergeschichtlicher Ansatz in byzantinischer Historiographie Zum Abstract\n\nNovember Pauline Spychala (Deutsches Historisches Institut Paris) EScriptorium und Transkribus im Spiegel: Vorläufige Schritte zum Training eines HTR-Modells an französischen spätmittelalterlichen Quellen Zum Abstract Vortragsaufzeichnung [YouTube]\nNovember Annabel Walz (Friedrich-Ebert-Stiftung) Mit Eimer und Sieb im Datenmeer: Wie entstehen archivierte Webseiten und wie kann man sie verstehen? Zum Abstract Vortragsaufzeichnung [YouTube]\nDezember Data for History Lectures* Ingo Frank (Leibniz-Institut für Ost- und Südosteuropaforschung (IOS), Herzog August Bibliothek Wolfenbüttel) Ontology Design Patterns for History: Modeling Place-based Information in the Digital Map Lab Holy Roman Empire Zum Abstract Vortragsaufzeichnung [YouTube]\nDezember Miriam Schirmer (Universität Regensburg) Natural Language Processing in der Genozidforschung Zum Abstract Vortragsaufzeichnung [YouTube]\nDezember – Termin entfällt –\nJanuar Nina Rastinger (Austrian Centre for Digital Humanities and Cultural Heritage) Kleine Texte, dichte Daten: Listen in historischen Zeitungen als Schatz für die Digital Humanities Zum Abstract Vortragsaufzeichnung [YouTube]\nJanuar – NFDI4Memory Torsten Hiltmann, Till Grallert, Claudia Prinz (NFDI4Memory, Humboldt-Universität zu Berlin), Marie von Lüneburg, Christiane Weber (Verband der Historiker und Historikerinnen Deutschlands) Von Methoden, Epistemologien und Publikationskulturen im Zeitalter der rapiden Datafizierung der Geschichtswissenschaften. Die Task Area 5 “Data Culture” im NFDI-Konsortium 4Memory stellt sich vor Zum Abstract Vortragsaufzeichnung [YouTube]\nJanuar Mia Ridge (The British Library), Kaspar Beelen (School of Advanced Study, University of London) Living with Machines: scaling up historical practice with digital machines Zum Abstract\nJanuar Anna Siebold (Max-Planck-Institut für Wissenschaftsgeschichte, Universität Oldenburg) “Where there is no data, there is no network.“ Merkmale, Ideale und Best Practice Kriterien der historischen Netzwerkforschung\nFebruar Thea Sommerschield (Ca’ Foscari University of Venice, ab 2024: University of Nottingham) Machine Learning for Ancient Languages: Trends, challenges, and future prospects for a digital ancient history (Titel aktualisiert am 22.01.24)\n\nZeit: Mittwochs, 16-18 Uhr c.t. Ort: Videokonferenz via Zoom\nWenn Sie an der Veranstaltung gern teilnehmen möchten, melden Sie sich bitte einfach per Email bei uns: digitalhistory@hu-berlin.de.\nlogo youtube Auch in diesem Semester werden einige Vorträge aufgezeichnet und im Anschluss auf dem YouTube-Kanal der Professur veröffentlicht. * Die Vorträge im Rahmen der Data for History Lectures werden in Kooperation mit dem “Data for History”-Konsortium organisiert. Dabei wird es vor allem um Themen wie Datenmodellierung, Semantic Web und Linked (Open) Data sowie die damit verbundenen Herausforderungen für die historische Forschung gehen. Sie sind als internationale Plattform für all jene gedacht, die sich für Fragen der Bereitstellung und Modellierung historischer Daten interessieren.\nDie wichtigsten Informationen rund um das Forschungskolloquium “Digital History” erhalten Sie bequem per E-Mail über die offene Mailingliste."
-  },
-  {
-    "objectID": "projekte/transfer.html",
-    "href": "projekte/transfer.html",
-    "title": "Transferwerkstatt",
-    "section": "",
-    "text": "Im Fokus der Transferwerkstatt steht der Aufbau und Ausbau von Kompetenz hinsichtlich der wissenschaftlichen Arbeit mit Kulturdaten in und an GLAM-Institutionen. Dabei legt der Schwerpunkt wie schon in anderen Aktivitätsfeldern von HERMES auf Methodenkompetenz und deren epistemologische Fundierung durch Theoriebildung und -einbindung. Besonderheit der Transferwerkstatt ist es dabei, den jeweils spezifischen Blick von Forschung und GLAM-Sektor auf Kulturdaten und den Umgang mit ihnen in einen verstärkten Dialog miteinander zu bringen. Und darüber die in diesem Zusammenhang derzeit laufenden Veränderungen des GLAM-Berufsfelds zu reflektieren und zu informieren."
-  },
-  {
-    "objectID": "projekte/carpentries.html",
-    "href": "projekte/carpentries.html",
-    "title": "Data Carpentries",
-    "section": "",
-    "text": "Im Rahmen von HERMES werden fachspezifische Data Carpentrys in Form von Summer and Winter Schools stattfinden, innerhalb derer verschiedene Datenkompetenzen vermittelt werden. Durch die Carpentrys sollen Wissenschaftler*innen in ihrer Rolle als Lehrende ein Trainingsprogramm durchlaufen, das sie darin schult, selbst Data Carpentrys durchzuführen und so als Multiplikator*innen zu wirken. Zudem beteiligt sich HERMES als Data-Carpentry-Maintainer an der Entwicklung von Schulungsinhalten mit einem fachlichen Bezug zu geistes- und kulturwissenschaftlichen Daten. Diese werden während der Laufzeit von HERMES sukzessive entwickelt, im Kontext der eigenen Data Carpentry Summer und Winter Schools genutzt und evaluiert und für die Nachnutzung und Weiterentwicklung zur Verfügung gestellt."
-  },
-  {
-    "objectID": "projekte/index.html",
-    "href": "projekte/index.html",
-    "title": "Projekte",
-    "section": "",
-    "text": "Bring-your-own-data-labs\n\n\nPraxis- und forschungsorientierte Beratung zur Arbeit mit eigenen Daten\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Carpentries\n\n\nGrundlagen datenorientierter Forschung vermitteln\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Challenges\n\n\nGeisteswissenschaftliche Datensätze und algorithmische Analyseverfahren\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForschungsstudienprogramm\n\n\nForschungsstipendien für die Arbeit mit Daten im Kontext von HERMES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHermes Hub\n\n\nVernetzung zwischen Akteur:innen und Disziplinen mit Micropublikationen stärken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKommunikationsformate\n\n\nÜber die Potenziale datengetriebener Forschung in den Geistes- und Kulturwissenschaften informieren\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Educational Resources\n\n\nHERMES entwickelt Lehr- und Lernmaterialien zur freien Nachnutzung\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransferwerkstatt\n\n\nDatenkompetenzen mit wissenschaftsnahen Praxispartnern aus dem GLAM-Sektor anwenden und weiterentwickeln\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Wisskomm Academy\n\n\nDatengetriebene Forschung kommunikativ auf den Punkt bringen\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer"
-  },
-  {
-    "objectID": "projekte/oer.html",
-    "href": "projekte/oer.html",
-    "title": "Open Educational Resources",
-    "section": "",
-    "text": "Im Rahmen von HERMES werden alle Lehr- und Lernmaterialien der angebotenen Schulungs- und Trainingsangebote als OER-Material - unabhängig von ihrer Materialität und Medialität - konzipiert, umgesetzt und publiziert. HERMES folgt hierbei einem Openness-Paradigma - entsprechend den Handlungszielen der OER-Strategie des BMBF -, bei dem sowohl der offene und dauerhafte Zugang als auch eine möglichst offene Lizenzierung im Mittelpunkt stehen. Die Veröffentlichung der Open Educational Resources geschieht unter den Creative Commons Lizenzen CC-BY bzw. CC-BY-SA bei allen Publikationen sowie unter einer permissiven Lizenz als Free/Libre and Open Source Software (FLOSS) bei Softwareprodukten sowie Code. Auf diese Weise ist sichergestellt, dass aus rechtlicher Perspektive ein offener Zugang möglich ist und durch die Nutzung von etablierten OER-Repositorien dies auch aus infrastruktureller Perspektive ermöglicht wird. HERMES wird keine eigenständigen Repositorien entwickeln und diese betreiben, sondern bestehende Angebote nutzen, ggfl. diese redaktionell begleiten und zugleich Wissenschaflter*innen dabei unterstützen und anleiten, OER-Materialien für den Themenbereich Data Literacy zu erstellen und zu veröffentlichen. Dazu soll auch eine standardisierte Metadaten-Empfehlung ausgearbeitet werden, die die Auffindbarkeit von aus dem HERMES-Kontext stammenden, zusammengehörigen Materialien über verschiedene Repositorien sicherstellt. Neben den Angeboten bundeslandspezifischer Repositorien “Hessen-Hub - Netzwerk digitale Hochschullehre Hessen” sowie “OpenEdu-RLP” in Rheinland-Pfalz werden auch weitere Repositorien genutzt, sofern diese dem o.g. Openness-Paradigma folgen"
-  },
-  {
-    "objectID": "projekte/stipendien.html",
-    "href": "projekte/stipendien.html",
-    "title": "Forschungsstudienprogramm",
-    "section": "",
-    "text": "Forschungsstipendien ermöglichen nicht nur einzelnen Forscher*innen, ihre individuelle Forschung durchzuführen, sie dienen im Zusammenhang von HERMES ebenso als Instrument zur Herstellung von kollaborativen Lern- und Forschungsräumen. Im HERMES-Stipendienprogramm können Forschende durch eine Förderung an den beteiligten Einrichtungen auf Datenbestände, Dateninfrastrukturen, datenwissenschaftliche Expertise und Weiterbildungsmöglichkeiten zurückgreifen. Die Stipendien zielen damit auf einen forschungsnahen und datenorientierten Erwerb von Datenkompetenzen ab, unterstützen aber zugleich auch eine stärkere Vernetzung innerhalb des wissenschaftlichen Feldes wie eine Etablierung derartiger Methoden in den entsprechenden Fächern. Ausgehend von den existierenden Stipendienprogrammen an der DNB und am IEG werden im Rahmen von HERMES sowohl zusätzliche Forschungsstipendien vergeben als auch die bestehenden Programme konzeptionell weiterentwickelt."
+    "text": "import pandas as pd\nimport altair as alt\nimport seaborn as sns\nfrom matplotlib import pyplot as plt\n\nData from Palmer Penguins R package\n\npenguins = pd.read_csv(\"https://pos.it/palmer-penguins-github-csv\")\n\n\npenguins.groupby(\"species\").size().reset_index(name = \"count\")\n\n\n\n\n\n\n\n\nspecies\ncount\n\n\n\n\n0\nAdelie\n152\n\n\n1\nChinstrap\n68\n\n\n2\nGentoo\n124\n\n\n\n\n\n\n\n\ncolors = [\"#FF8C00\", \"#A020F0\", \"#008B8B\"]\nsns.set_palette(colors, n_colors = 3)\n\n\npenguins[\"bill_ratio\"] = (\n   penguins[\"bill_length_mm\"] / penguins[\"bill_depth_mm\"] \n)\nsns.displot(penguins, \n            x = \"bill_ratio\", \n            hue = \"species\", \n            kind = \"kde\", fill = True, aspect = 2, height = 3)\nplt.show()\n\n\n\n\n\n\n\n\nsns.displot(penguins, \n            x = \"bill_depth_mm\", \n            hue = \"species\", \n            kind = \"kde\", fill = True, \n            aspect = 2, height = 3)\nplt.show()\nsns.displot(penguins, \n            x = \"bill_length_mm\", \n            hue = \"species\", \n            kind = \"kde\", fill = True, \n            aspect = 2, height = 3)\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\n(a) Gentoo penguins tend to have thinner bills,\n\n\n\n\n\n\n\n\n\n\n\n(b) and Adelie penguins tend to have shorter bills.\n\n\n\n\n\n\n\nAbbildung 1: Marginal distributions of bill dimensions\n\n\n\n\nscale = alt.Scale(domain = ['Adelie', 'Chinstrap', 'Gentoo'],\n                  range = colors)\n\n\nalt.Chart(penguins).mark_circle(size=60).encode(\n    alt.X('bill_length_mm',\n        scale=alt.Scale(zero=False)\n    ),\n    alt.Y('bill_depth_mm',\n        scale=alt.Scale(zero=False)\n    ),\n    color = alt.Color('species', scale = scale),\n    tooltip=['species', 'sex', 'island']\n)\n\n\n\n\n\n\n\n\nAbbildung 2: A scatterplot of bill dimensions for penguins, made with Altair."
   },
   {
     "objectID": "index.html",
@@ -161,25 +35,123 @@
     "text": "HERMES etabliert Orte des Lernens, Forschens und Vernetzens, an denen Datenkompetenzen in den Geistes- und Kulturwissenschaften vermittelt, weiterentwickelt und kritisch reflektiert werden. Hierzu konzipiert und erprobt HERMES folgende Formate:\n\n\n\n\n\n\n\n\n\n\nBring-your-own-data-labs\n\n\nPraxis- und forschungsorientierte Beratung zur Arbeit mit eigenen Daten\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Carpentries\n\n\nGrundlagen datenorientierter Forschung vermitteln\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Challenges\n\n\nGeisteswissenschaftliche Datensätze und algorithmische Analyseverfahren\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForschungsstudienprogramm\n\n\nForschungsstipendien für die Arbeit mit Daten im Kontext von HERMES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHermes Hub\n\n\nVernetzung zwischen Akteur:innen und Disziplinen mit Micropublikationen stärken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKommunikationsformate\n\n\nÜber die Potenziale datengetriebener Forschung in den Geistes- und Kulturwissenschaften informieren\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Educational Resources\n\n\nHERMES entwickelt Lehr- und Lernmaterialien zur freien Nachnutzung\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransferwerkstatt\n\n\nDatenkompetenzen mit wissenschaftsnahen Praxispartnern aus dem GLAM-Sektor anwenden und weiterentwickeln\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Wisskomm Academy\n\n\nDatengetriebene Forschung kommunikativ auf den Punkt bringen\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer\n\n\n\n\nPartner\n\n\n\n\n\n  \n    \n      \n        Philipps-Universität Marburg\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Akademie der Wissenschaften Mainz\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Deutsche Nationalbibliothek\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Hochschule Darmstadt\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Herder Insitut für Ost-Mitteleuropaforschung\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Hochschule Mainz\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        IEG Mainz\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Universität Trier\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        TU Darmstadt\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n\n\n\nKeine Treffer\n\n\n\n\nFörderung\n\n\n\n\n\n  \n    \n      \n        Bundesministerium für Bildung und Forschung\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n  \n    \n      \n        Europäische Union\n        \n        \n      \n    \n    \n      \n    \n    \n    \n    \n  \n\n\n\n\nKeine Treffer"
   },
   {
-    "objectID": "blog/eintrag1blog.html",
-    "href": "blog/eintrag1blog.html",
-    "title": "Blogeintrag 1",
+    "objectID": "projekte/stipendien.html",
+    "href": "projekte/stipendien.html",
+    "title": "Forschungsstudienprogramm",
     "section": "",
-    "text": "anklicken und diskutieren"
+    "text": "Forschungsstipendien ermöglichen nicht nur einzelnen Forscher*innen, ihre individuelle Forschung durchzuführen, sie dienen im Zusammenhang von HERMES ebenso als Instrument zur Herstellung von kollaborativen Lern- und Forschungsräumen. Im HERMES-Stipendienprogramm können Forschende durch eine Förderung an den beteiligten Einrichtungen auf Datenbestände, Dateninfrastrukturen, datenwissenschaftliche Expertise und Weiterbildungsmöglichkeiten zurückgreifen. Die Stipendien zielen damit auf einen forschungsnahen und datenorientierten Erwerb von Datenkompetenzen ab, unterstützen aber zugleich auch eine stärkere Vernetzung innerhalb des wissenschaftlichen Feldes wie eine Etablierung derartiger Methoden in den entsprechenden Fächern. Ausgehend von den existierenden Stipendienprogrammen an der DNB und am IEG werden im Rahmen von HERMES sowohl zusätzliche Forschungsstipendien vergeben als auch die bestehenden Programme konzeptionell weiterentwickelt."
   },
   {
-    "objectID": "blog/eintrag1blog.html#erster-beitrag",
-    "href": "blog/eintrag1blog.html#erster-beitrag",
-    "title": "Blogeintrag 1",
+    "objectID": "projekte/oer.html",
+    "href": "projekte/oer.html",
+    "title": "Open Educational Resources",
     "section": "",
-    "text": "anklicken und diskutieren"
+    "text": "Im Rahmen von HERMES werden alle Lehr- und Lernmaterialien der angebotenen Schulungs- und Trainingsangebote als OER-Material - unabhängig von ihrer Materialität und Medialität - konzipiert, umgesetzt und publiziert. HERMES folgt hierbei einem Openness-Paradigma - entsprechend den Handlungszielen der OER-Strategie des BMBF -, bei dem sowohl der offene und dauerhafte Zugang als auch eine möglichst offene Lizenzierung im Mittelpunkt stehen. Die Veröffentlichung der Open Educational Resources geschieht unter den Creative Commons Lizenzen CC-BY bzw. CC-BY-SA bei allen Publikationen sowie unter einer permissiven Lizenz als Free/Libre and Open Source Software (FLOSS) bei Softwareprodukten sowie Code. Auf diese Weise ist sichergestellt, dass aus rechtlicher Perspektive ein offener Zugang möglich ist und durch die Nutzung von etablierten OER-Repositorien dies auch aus infrastruktureller Perspektive ermöglicht wird. HERMES wird keine eigenständigen Repositorien entwickeln und diese betreiben, sondern bestehende Angebote nutzen, ggfl. diese redaktionell begleiten und zugleich Wissenschaflter*innen dabei unterstützen und anleiten, OER-Materialien für den Themenbereich Data Literacy zu erstellen und zu veröffentlichen. Dazu soll auch eine standardisierte Metadaten-Empfehlung ausgearbeitet werden, die die Auffindbarkeit von aus dem HERMES-Kontext stammenden, zusammengehörigen Materialien über verschiedene Repositorien sicherstellt. Neben den Angeboten bundeslandspezifischer Repositorien “Hessen-Hub - Netzwerk digitale Hochschullehre Hessen” sowie “OpenEdu-RLP” in Rheinland-Pfalz werden auch weitere Repositorien genutzt, sofern diese dem o.g. Openness-Paradigma folgen"
   },
   {
-    "objectID": "personen/index.html",
-    "href": "personen/index.html",
-    "title": "Personen",
+    "objectID": "projekte/index.html",
+    "href": "projekte/index.html",
+    "title": "Projekte",
     "section": "",
-    "text": "Mitarbeiter*innen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMalte Hagener\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Bring-your-own-data-labs\n\n\nPraxis- und forschungsorientierte Beratung zur Arbeit mit eigenen Daten\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Carpentries\n\n\nGrundlagen datenorientierter Forschung vermitteln\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Challenges\n\n\nGeisteswissenschaftliche Datensätze und algorithmische Analyseverfahren\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForschungsstudienprogramm\n\n\nForschungsstipendien für die Arbeit mit Daten im Kontext von HERMES\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHermes Hub\n\n\nVernetzung zwischen Akteur:innen und Disziplinen mit Micropublikationen stärken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKommunikationsformate\n\n\nÜber die Potenziale datengetriebener Forschung in den Geistes- und Kulturwissenschaften informieren\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Educational Resources\n\n\nHERMES entwickelt Lehr- und Lernmaterialien zur freien Nachnutzung\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTransferwerkstatt\n\n\nDatenkompetenzen mit wissenschaftsnahen Praxispartnern aus dem GLAM-Sektor anwenden und weiterentwickeln\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVirtual Wisskomm Academy\n\n\nDatengetriebene Forschung kommunikativ auf den Punkt bringen\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "projekte/carpentries.html",
+    "href": "projekte/carpentries.html",
+    "title": "Data Carpentries",
+    "section": "",
+    "text": "Im Rahmen von HERMES werden fachspezifische Data Carpentrys in Form von Summer and Winter Schools stattfinden, innerhalb derer verschiedene Datenkompetenzen vermittelt werden. Durch die Carpentrys sollen Wissenschaftler*innen in ihrer Rolle als Lehrende ein Trainingsprogramm durchlaufen, das sie darin schult, selbst Data Carpentrys durchzuführen und so als Multiplikator*innen zu wirken. Zudem beteiligt sich HERMES als Data-Carpentry-Maintainer an der Entwicklung von Schulungsinhalten mit einem fachlichen Bezug zu geistes- und kulturwissenschaftlichen Daten. Diese werden während der Laufzeit von HERMES sukzessive entwickelt, im Kontext der eigenen Data Carpentry Summer und Winter Schools genutzt und evaluiert und für die Nachnutzung und Weiterentwicklung zur Verfügung gestellt."
+  },
+  {
+    "objectID": "projekte/transfer.html",
+    "href": "projekte/transfer.html",
+    "title": "Transferwerkstatt",
+    "section": "",
+    "text": "Im Fokus der Transferwerkstatt steht der Aufbau und Ausbau von Kompetenz hinsichtlich der wissenschaftlichen Arbeit mit Kulturdaten in und an GLAM-Institutionen. Dabei legt der Schwerpunkt wie schon in anderen Aktivitätsfeldern von HERMES auf Methodenkompetenz und deren epistemologische Fundierung durch Theoriebildung und -einbindung. Besonderheit der Transferwerkstatt ist es dabei, den jeweils spezifischen Blick von Forschung und GLAM-Sektor auf Kulturdaten und den Umgang mit ihnen in einen verstärkten Dialog miteinander zu bringen. Und darüber die in diesem Zusammenhang derzeit laufenden Veränderungen des GLAM-Berufsfelds zu reflektieren und zu informieren."
+  },
+  {
+    "objectID": "veranstaltungen/intern/dhistory.html",
+    "href": "veranstaltungen/intern/dhistory.html",
+    "title": "Digital History",
+    "section": "",
+    "text": "PROGRAMM WINTERSEMESTER 2023/2024 Digital History – Offenes Forschungskolloquium (via Zoom)\n\nNovember Aktuelle Abschlussarbeiten\n\nOlga Mlynarczyk (Humboldt-Universität zu Berlin) Learning to think like the past. Applicability of retrieval augmented LLMs in historical research Zum Abstract\nLukas Sebold (Humboldt-Universität zu Berlin) Text Reuse in Anna Komnenes „Alexias“ (ca. 1148) – ein digitaler und geschlechtergeschichtlicher Ansatz in byzantinischer Historiographie Zum Abstract\n\nNovember Pauline Spychala (Deutsches Historisches Institut Paris) EScriptorium und Transkribus im Spiegel: Vorläufige Schritte zum Training eines HTR-Modells an französischen spätmittelalterlichen Quellen Zum Abstract Vortragsaufzeichnung [YouTube]\nNovember Annabel Walz (Friedrich-Ebert-Stiftung) Mit Eimer und Sieb im Datenmeer: Wie entstehen archivierte Webseiten und wie kann man sie verstehen? Zum Abstract Vortragsaufzeichnung [YouTube]\nDezember Data for History Lectures* Ingo Frank (Leibniz-Institut für Ost- und Südosteuropaforschung (IOS), Herzog August Bibliothek Wolfenbüttel) Ontology Design Patterns for History: Modeling Place-based Information in the Digital Map Lab Holy Roman Empire Zum Abstract Vortragsaufzeichnung [YouTube]\nDezember Miriam Schirmer (Universität Regensburg) Natural Language Processing in der Genozidforschung Zum Abstract Vortragsaufzeichnung [YouTube]\nDezember – Termin entfällt –\nJanuar Nina Rastinger (Austrian Centre for Digital Humanities and Cultural Heritage) Kleine Texte, dichte Daten: Listen in historischen Zeitungen als Schatz für die Digital Humanities Zum Abstract Vortragsaufzeichnung [YouTube]\nJanuar – NFDI4Memory Torsten Hiltmann, Till Grallert, Claudia Prinz (NFDI4Memory, Humboldt-Universität zu Berlin), Marie von Lüneburg, Christiane Weber (Verband der Historiker und Historikerinnen Deutschlands) Von Methoden, Epistemologien und Publikationskulturen im Zeitalter der rapiden Datafizierung der Geschichtswissenschaften. Die Task Area 5 “Data Culture” im NFDI-Konsortium 4Memory stellt sich vor Zum Abstract Vortragsaufzeichnung [YouTube]\nJanuar Mia Ridge (The British Library), Kaspar Beelen (School of Advanced Study, University of London) Living with Machines: scaling up historical practice with digital machines Zum Abstract\nJanuar Anna Siebold (Max-Planck-Institut für Wissenschaftsgeschichte, Universität Oldenburg) “Where there is no data, there is no network.“ Merkmale, Ideale und Best Practice Kriterien der historischen Netzwerkforschung\nFebruar Thea Sommerschield (Ca’ Foscari University of Venice, ab 2024: University of Nottingham) Machine Learning for Ancient Languages: Trends, challenges, and future prospects for a digital ancient history (Titel aktualisiert am 22.01.24)\n\nZeit: Mittwochs, 16-18 Uhr c.t. Ort: Videokonferenz via Zoom\nWenn Sie an der Veranstaltung gern teilnehmen möchten, melden Sie sich bitte einfach per Email bei uns: digitalhistory@hu-berlin.de.\nlogo youtube Auch in diesem Semester werden einige Vorträge aufgezeichnet und im Anschluss auf dem YouTube-Kanal der Professur veröffentlicht. * Die Vorträge im Rahmen der Data for History Lectures werden in Kooperation mit dem “Data for History”-Konsortium organisiert. Dabei wird es vor allem um Themen wie Datenmodellierung, Semantic Web und Linked (Open) Data sowie die damit verbundenen Herausforderungen für die historische Forschung gehen. Sie sind als internationale Plattform für all jene gedacht, die sich für Fragen der Bereitstellung und Modellierung historischer Daten interessieren.\nDie wichtigsten Informationen rund um das Forschungskolloquium “Digital History” erhalten Sie bequem per E-Mail über die offene Mailingliste."
+  },
+  {
+    "objectID": "veranstaltungen/intern/talks.html",
+    "href": "veranstaltungen/intern/talks.html",
+    "title": "NFDI Talks",
+    "section": "",
+    "text": "In unseren NFDITalks geben wir Einblicke in die Vielfalt von NFDI. Expert:innen aus verschiedenen Fachrichtungen sprechen über Themen des Forschungsdatenmanagements, neue Services, Use Cases und mehr.\nDie Online-Talks sind regelmäßig montags von 16 bis 17 Uhr und in der Regel in englischer Sprache. Über Zoom hat das Publikum die Gelegenheit, Fragen an die Vortragenden zu richten und in einen direkten Dialog zu treten. Auch Personen außerhalb unserer NFDI-Community können sich registrieren. Nutzen Sie hierzu bitte das untenstehende Formular. Die Talks werden außerdem für alle zugänglich live auf YouTube übertragen und im Anschluss auf unserem Kanal NFDI archiviert.\nIn unserer Terminübersicht sehen Sie, wann die nächsten NFDITalks geplant sind.\nDas Format NFDITalks führt ab Januar 2024 die beiden Talkformate InfraTalk und ToolTalk zusammen. Die Vorträge sind in zwei YouTube-Playlists gespeichert: InfraTalk-Playlist und ToolTalk-Playlist.\nRegistrierung für NFDITalks über Zoom"
+  },
+  {
+    "objectID": "veranstaltungen/einreichen.html",
+    "href": "veranstaltungen/einreichen.html",
+    "title": "Veranstaltungen eintragen",
+    "section": "",
+    "text": "Tragen Sie Ihre Veranstaltung ein:\n\nName:  Institution:  Name der Veranstaltung:  Datum: \n\nInhalte\n\n General  Data Literacy  Digital Humanities\n\nVeranstaltung\n\n  Die Veranstaltung ist rein digital   Die Veranstaltung findet vor Ort statt   Die Veranstaltung wird hybride abgehalten"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Kontakt aufnehmen",
+    "section": "",
+    "text": "Haben Sie Fragen zum geplanten Datenkompetenzzentrum HERMES oder Feedback zu den Vermittlungsformaten? Nehmen Sie gerne Kontakt zu uns auf! Wir freuen uns über Rückmeldungen aus der geistes- und kulturwissenschaftlichen Community und nehmen Anregungen gerne für die Entwicklung von HERMES mit auf. HERMES ist eine von 22 Initiativen, die sich aktuell um eine Förderung im Rahmen der Ausschreibung des BMBF zur Förderung von Datenkompetenzzentren in der Wissenschaft bewerben.\nSie erreichen uns unter der folgenden Adresse: mcdci@uni-marburg.de"
+  },
+  {
+    "objectID": "veranstaltungen/index.html",
+    "href": "veranstaltungen/index.html",
+    "title": "Veranstaltungen",
+    "section": "",
+    "text": "Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nBeschreibung\n\n\nWeblink\n\n\n\n\n\n\n11.03.2025\n\n\nDigital History\n\n\nOffenes Forschungskolloquium\n\n\nDigital Hisotry Website\n\n\n\n\n01.12.2025\n\n\nFAIR Impact Events\n\n\nFAIR practices for FAIR Dataspaces in the German research community\n\n\n FAIR \n\n\n\n\n12.10.2024\n\n\nFAIRmat Tutorial 12 Getting started with NOMAD and NOMAD Oasis for research data management (RDM)\n\n\nonline\n\n\nLink\n\n\n\n\n13.02.2024\n\n\nLove Data Week NFDIxCS Workshop Containerize Software – Why is it useful, and how do I do this?\n\n\nPotsdam\n\n\nLink\n\n\n\n\n01.06.2025\n\n\nNFDI Talks\n\n\nImpulse und Austausch: Die NFDITalks\n\n\nNFDI Talks \n\n\n\n\n01.06.2025\n\n\nWebinar: A Beginner’s Guide to Data Visualisation\n\n\nWebinar\n\n\nVisualisation \n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "veranstaltungen/intern/fair.html",
+    "href": "veranstaltungen/intern/fair.html",
+    "title": "FAIR Impact Events",
+    "section": "",
+    "text": "The FAIR National Roadshow series is visiting Germany on the 24th of January 2024. The event will be virtually hosted by NFDI, the German National Research Data Infrastructure. The event will focus on how Germany, and NFDI in particular, is moving forward with the definition and setting up of FAIR Data spaces, as common, cloud-based data spaces for industry and research in compliance with the FAIR Principles, i.e., to share data in a findable, accessible, interoperable, reusable way.\nThe agenda will see presentations about Base4NFDI and the FAIR Data Spaces projects, as well as community based best practices from the FAIR-IMPACT project.\nTarget audience: German Research community at large\nLanguage: English\nDate: 24 January 2024, 14:00 - 16:30 CET\nModerator: York Sure-Vetter, Director of NFDI (German National Research Data Infrastructure) , chair of the FAIR-IMPACT High Level Advisory Committee and professor at the Karlsruhe Institute of Technology (KIT)"
+  },
+  {
+    "objectID": "veranstaltungen/intern/visual.html",
+    "href": "veranstaltungen/intern/visual.html",
+    "title": "Webinar: A Beginner’s Guide to Data Visualisation",
+    "section": "",
+    "text": "Effective communication of scientific results relies heavily on good data visualisation, whether we aim to communicate with a lay audience or other scientists.\nIn this webinar, we will give an overview of good data visualisation practices and techniques and cover additional aspects like inclusive design choices, storytelling, and interactive visualizations. This webinar will mostly cover concepts, but not teach technical examples in specific coding languages. For a technical introduction, see the Data Visualisation in R and Python webinar in February 2024.\nThis webinar aims at early career researchers, clinicians, bioinformaticians and everyone working on or interested in communicating scientific results through meaningful visualisations.\nThe seminar will be given by GHGA workflows expert Florian Heyl.\nThe event is in English and will be held on 18 January 2023, 16:00 CET (available afterwards on demand). Attendance is free, but we ask for registration."
+  },
+  {
+    "objectID": "projekte/challenges.html",
+    "href": "projekte/challenges.html",
+    "title": "Data Challenges",
+    "section": "",
+    "text": "Data Challenges sind ein Format, das bereits in verschiedenen Wissenschaftsbereichen als auch zur Bearbeitung gesellschaftlicher Fragestellungen eingesetzt und etabliert wurde. Für den Bereich der geistes- und kulturwissenschaftlichen Daten gibt es hingegen bisher erst wenige Modelle, auch wenn der Einsatz computergestützter Analyseverfahren und insbesondere von Ansätzen des maschinellen Lernens auch in diesem Feld kontinuierlich steigt. Die im Rahmen von HERMES geplanten Data Challenges verfolgen daher das Ziel, die Bearbeitung von geistes- und kulturwissenschaftlichen Fragestellungen mit Hilfe von (großen) Datenbeständen und algorithmischen Analyseverfahren zu fördern und dadurch methodische Weiterentwicklungen anzuregen."
+  },
+  {
+    "objectID": "projekte/labs.html",
+    "href": "projekte/labs.html",
+    "title": "Bring-your-own-data-labs",
+    "section": "",
+    "text": "Fortgeschrittene Wissenschaftler*innen, die Zugriff auf spezifische Datensätze haben, benötigen individuell auf die Forschungsvorhaben zugeschnittene Datenkompetenzen und Austauschangebote. In den Bring-your-own-data-Labs erfolgt diese Beratung und Vermittlung praxis- und forschungsorientiert daher individuell oder in kleinen Gruppen. Das Format befähigt die Forscher*innen, ihre Kenntnisse in bestimmten Methoden zu vertiefen bzw. neue Ansätze kennenzulernen und diese unmittelbar und mit Begleitung auf ihren Forschungsgegenstand anzuwenden. Als Beratungs- und Begleitungsformat, das am Beginn oder auch im weiteren Verlauf des Forschungszyklus stehen kann, ist dieses Angebot ideal für Post-Graduierte mit Forschungsfragen und Datensätzen für konkrete Forschungsprojekte."
+  },
+  {
+    "objectID": "projekte/hub.html",
+    "href": "projekte/hub.html",
+    "title": "Hermes Hub",
+    "section": "",
+    "text": "Der HERMES-Hub wird die zentrale Kommunikationsplattform des Datenkompetenzzentrums. Als zentrale Einrichtung ist es sowohl eine technische als auch eine soziale Plattform, die der Informationsvermittlung bezüglich der Aktivitäten und Angebote des DKZ dient, aber v. a. der Vernetzung und dem Austausch aller Akteurinnen im Bereich Vermittlung und Weiterentwicklung von Datenkompetenzen in den Geisteswissenschaften. Die Plattform soll dem Open-Science-Verständnis von HERMES gerecht werden, um die Vernetzung aller Akteurinnen (Produzierende wie auch Konsumierende der HERMES-Angebote) zu verstärken und sie in einen lebhaften, sich gegenseitig befruchtenden Austausch über datenwissenschaftliche Methoden und Forschungsdatenmanagement in den Geisteswissenschaften und deren Vermittlung zu bringen."
+  },
+  {
+    "objectID": "projekte/wisskomm.html",
+    "href": "projekte/wisskomm.html",
+    "title": "Virtual Wisskomm Academy",
+    "section": "",
+    "text": "Im Rahmen der WissKomm Academy der ADW und des Studiengangs Online Journalismus und Wissenschaftskommunikation der Hochschule Darmstadt baut HERMES ein Format auf, das Kompetenzen in der Wissenschaftskommunikation insbesondere zu datengetriebener Forschung in den Geistes- und Kulturwissenschaften vermittelt. Es soll die kommunikativen und medialen Fähigkeiten der Teilnehmenden ausbauen und zugleich die Vermittlung neuer digitaler Forschungsmethoden in die verschiedenen Fachcommunitys fördern."
+  },
+  {
+    "objectID": "projekte/communication.html",
+    "href": "projekte/communication.html",
+    "title": "Kommunikationsformate",
+    "section": "",
+    "text": "Im Rahmen von HERMES werden verschiedene niedrigschwellige Kommunikationsformate entwickelt, die vorrangig den wissenschaftlichen Nachwuchs sowie junge Mitarbeitende in GLAM-Einrichtungen adressieren, um über die Potentiale datengetriebener geistes- und kulturwissenschaftlicher Forschung zu informieren und dafür zu sensibilisieren. Sie werden dabei zugleich in die Lage versetzt, Anforderungen an die konkrete Anwendung datengestützter Methoden, sei es in Forschung, Lehre oder datenkuratorischer Praxis, einzuschätzen und kritisch zu reflektieren. Entsprechend werden insbesondere auch Themen aus dem Bereich Data Criticism behandelt, was in diesem Fall einen methodenkritischen Ansatz miteinschließt."
   },
   {
     "objectID": "blog/2024/01/index.html",
@@ -203,10 +175,17 @@
     "text": "Ein bisschen Python gefällig?\nWir können auch Python-Code mit Quarto darstellen (s. Abbildung 1)!\n\n\n\ndef fib(n):\n    if n &lt; 1:\n        raise Exception('undefined')\n    elif n &lt; 3:\n        return 1\n    else:\n        return fib(n-1) + fib(n-2)\n\n\nAbbildung 1: Rekursive Funktion zur Berechnung von Fibonacci-Zahlen.\n\n\n\nWir können aber auch Python-Code ausführen lassen und z.B. eine Visualisierung mit matplotlib erzeugen, s. Abbildung 2.\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\nAbbildung 2: A line plot on a polar axis\n\n\n\n\n\nDies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë(Cremer, Klaffki und Steyer 2018), die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden. Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.\nWir können auch Code aus einem Jupyter-Notebook einbinden:\n\n\n\n\n\n\n\n\n\n\nAbbildung 3: A scatterplot of bill dimensions for penguins, made with Altair.\n\n\n\n\nQuelle: Palmer Penguins (.ipynb)"
   },
   {
-    "objectID": "blog/2024/01/rekursion.html",
-    "href": "blog/2024/01/rekursion.html",
-    "title": "Guessing Game",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Hermes Blog",
     "section": "",
-    "text": "Guessing Game\n\nProgrammidee\n\nComputer wählt zufällige Zahl zwischen 1 und 100\nDer Spieler versucht die Zahl zu erraten\n\nEr gibt einen Tipp ab\nDer Computer gibt Feedback (Treffer, zu groß, zu klein)\nAnzahl der Versuche wird gezählt\n\n\n\n\nSchritt 1 - Zufallszahl auswählen\nWer erinnert sich noch an das Python Modul dafür?\n\nimport random\n\nnumber = random.randint(1, 100)\n\n\n\nSchritt 2 - Text einlesen und als Zahl interpretieren\nWelche Funktionen werden dafür benötigt?\n\nguess = int(input(\"Bitte Zahl eingeben: \"))\n\nACHTUNG Keinerlei Fehlerbehandlung!\n\n\nSchritt 3 - Eingabe mit Zufallszahl vergleichen\n\nimport random\n\nnumber = random.randint(1, 100)\nguess = int(input(\"Bitte Zahl eingeben:\"))\n\nif number != guess:\n    print(f\"{guess} war nicht die gesuchte Zahl\")\n    print(f\"Die gesuchte Zahl war {number}!\")\nelse:\n    print(f\"Treffer! Die gesuchte Zahl war {number}.\")\n\n\n\nSchritt 4 - Mehrere Versuche erlauben\n\nimport random\n\nnumber = random.randint(1, 100)\nguess = int(input(\"Bitte Zahl eingeben:\"))\n\nwhile number != guess:\n    print(f\"{guess} war nicht die gesuchte Zahl\")\n    guess = int(input(\"Bitte Zahl eingeben:\"))\n\nprint(f\"Treffer! Die gesuchte Zahl war {number}.\")\n\n\n\nSchritt 5 - Hinweis ausgeben\n\nimport random\n\nnumber = random.randint(1, 100)\nguess = int(input(\"Bitte Zahl eingeben:\"))\n\nwhile number != guess:\n    if number &gt; guess:\n        print(f\"Die gesuchte Zahl ist größer als {guess}.\")\n    else:\n        print(f\"Die gesuchte Zahl ist kleiner als {guess}.\")\n\n    guess = int(input(\"Bitte Zahl eingeben:\"))\n\nprint(f\"Treffer! Die gesuchte Zahl war {number}.\")\n\n\n\nSchritt 6 - Versuche zählen\n\nimport random\n\nnumber = random.randint(1, 100)\nguess = int(input(\"Bitte Zahl eingeben:\"))\nguesses = 1\n\nwhile number != guess:\n    if number &gt; guess:\n        print(f\"Die gesuchte Zahl ist größer als {guess}.\")\n    else:\n        print(f\"Die gesuchte Zahl ist kleiner als {guess}.\")\n\n    guess = int(input(\"Bitte Zahl eingeben:\"))\n    guesses += 1\n\nprint(f\"Treffer nach {guesses} Versuchen! Die gesuchte Zahl war {number}.\")\n\n\n\nVariante 1 - Zufälliges Raten\n\nAusprobieren aller Zahlen von 1 bis 100 in zufälliger Reihenfolge\n\nKeine Zahl doppelt versuchen\n\nIdeen?\n\n\n\nVariante 1 - Zufälliges Raten\n\nHilfsklasse\n\n\nimport random\n\nclass RandomGuess:\n    def __init__(self, minimum, maximum):\n        self.guessed = set()\n        self.minimum = minimum\n        self.maximum = maximum\n        \n    def next_guess(self):\n        while True:\n            guess = random.randint(self.minimum, self.maximum)\n            if guess not in self.guessed:\n                self.guessed.add(guess)\n                return guess\n            if len(self.guessed) &gt; self.maximum - self.minimum:\n                raise Exception(\"out of guesses\")\n\n\n\nVariante 1 - Zufälliges Raten\n\nTest der Hilfsklasse\n\n\nguessed = list()\nguesser = RandomGuess(1, 10)\ntry:\n    while True:\n        guessed.append(guesser.next_guess())\nexcept:\n    pass\n\nprint(sorted(guessed))\n\n\n\nVariante 1 - Zufälliges Raten\n\nimport random\n\nguesser = RandomGuess(1, 100)          # &lt;--\nnumber = random.randint(1, 100)\nguess = guesser.next_guess()           # &lt;--\nguesses = 1\n\nwhile number != guess:\n    if number &gt; guess:\n        print(f\"Die gesuchte Zahl ist größer als {guess}.\")\n    else:\n        print(f\"Die gesuchte Zahl ist kleiner als {guess}.\")\n\n    guess = guesser.next_guess()       # &lt;--\n    guesses += 1\n\nprint(f\"Treffer nach {guesses} Versuchen! Die gesuchte Zahl war {number}.\")\n\n\n\nVariante 2 - Brute-force search\n\nAlle Möglichkeiten nacheinander ausprobieren\n\n\n\nVariante 2 - Brute-force search\n\nimport random\n\nnumber = random.randint(1, 100)\nguess = 1                              # &lt;--\nguesses = 1\n\nwhile number != guess:\n    if number &gt; guess:\n        print(f\"Die gesuchte Zahl ist größer als {guess}.\")\n    else:\n        print(f\"Die gesuchte Zahl ist kleiner als {guess}.\")\n\n    guess += 1                         # &lt;--                                               \n    guesses += 1\n\nprint(f\"Treffer nach {guesses} Versuchen! Die gesuchte Zahl war {number}.\")\n\n\n\nVariante 3 - Binary search\n\nGeschickte Auswahl der Zahlen zur schnellen Verkleinerung des Suchraums.\n\n\n\nVariante 3 - Binary search\n\nimport random\n\nnumber = random.randint(1, 100)\nguess = 50                             # &lt;--\npartition_size = 50                    # &lt;--\nguesses = 1\n\nwhile guesses &lt; 15 and number != guess:\n    if number &gt; guess:\n        print(f\"Die gesuchte Zahl ist größer als {guess}.\")\n        guess = round(guess + partition_size / 2)\n    else:\n        print(f\"Die gesuchte Zahl ist kleiner als {guess}.\")\n        guess = round(guess - partition_size / 2)\n\n    partition_size /= 2                        # &lt;--                                               \n    guesses += 1\n\nprint(f\"Treffer nach {guesses} Versuchen! Die gesuchte Zahl war {number}.\")\n\n\n\n\nFakultät\n\nFakultät - iterativ\n\ndef factorial(x):\n    if x &lt; 0:\n        raise Exception('undefined')\n    result = 1\n    for i in range(1, x+1):\n        result *= i\n    return result\n            \nprint(factorial(5))\n\n\n\nFakultät - rekursiv\n\ndef factorial_recursive(x):\n    if x == 0:\n        return 1;\n    else:\n        return x * factorial_recursive(x-1)\n            \nprint(factorial_recursive(5))\n\n\n\n\nFibonacci Zahlen\n\nFibonacci Zahlen - rekursiv\n\ndef fib(n):\n    if n &lt; 1:\n        raise Exception('undefined')\n    elif n &lt; 3:\n        return 1\n    else:\n        return fib(n-1) + fib(n-2)\n\n\nfib(40)\n\n\n\nFibonacci Zahlen - Dynamische Programmierung\n\n_fib_dyn = {}\ndef fib_dyn(n):\n    if n &lt; 1:\n        raise Exception('undefined')\n    elif n &lt; 3:\n        return 1\n    else:\n        if n not in _fib_dyn:\n            _fib_dyn[n] = fib_dyn(n-1) + fib_dyn(n-2)\n        return _fib_dyn[n]\n\n\nfib_dyn(40)\n\n\n\nFibonacci Zahlen - Vergleich\n\nimport timeit\ntimeit.timeit('print(fib(40))', globals={'fib': fib}, number=1)\n\n\n_fib_dyn = {}\nprint(_fib_dyn)\ntimeit.timeit('print(fib_dyn(40))', globals={'fib_dyn': fib_dyn}, number=1)\n\n\nprint(_fib_dyn)\n\n\n\n\nTürme von Hanoi\n\nTürme von Hanoi\n\nIdee: Bevor man eine Scheibe transportiert werden kann, müssen erst alle Scheiben darüber transportiert werden.\nVom linken Stapel mit n Scheiben müssen zunächst die oberen n-1 Scheiben auf den mittleren Stapel transportiert werden, damit n Scheiben auf den rechten Stapel transportiert werden können.\nDas kann man rekursiv fortführen:\n\nDie oberen n-2 Scheiben müssen dazu zunächst auf den rechten Stapel transportiert werden.\nDie oberen n-3 Scheiben müssen dazu zunächst auf den mittleren Stapel transportiert werden.\n\n\n\n\nTürme von Hanoi\nAusgangssituation:\n\ntower1=[4,3,2,1]\ntower2=[]\ntower3=[]\n\n\n\nTürme von Hanoi - manuell\n\ntower3.append(tower1.pop())\nprint(tower1, tower2, tower3)\n\n\ntower2.append(tower1.pop())\nprint(tower1, tower2, tower3)\n\n\ntower2.append(tower3.pop())\nprint(tower1, tower2, tower3)\n\n\n\nTürme von Hanoi - manuell\n\ntower3.append(tower1.pop())\nprint(tower1, tower2, tower3)\n\n\ntower1.append(tower2.pop())\nprint(tower1, tower2, tower3)\n\n\ntower3.append(tower2.pop())\nprint(tower1, tower2, tower3)\n\n\ntower3.append(tower1.pop())\nprint(tower1, tower2, tower3)\n\n\n\nTürme von Hanoi\nAlgorithmus:\n\ndef hanoi(n, towerA, towerB, towerC):\n    \"\"\"move n discs from tower A to tower C\"\"\"\n    if n &gt; 0:\n        # move the upper n-1 discs from tower A to tower B\n        hanoi(n - 1, towerA, towerC, towerB)\n\n        # if there are discs left tower A, move them to tower C\n        if len(towerA)&gt;0:\n            towerC.append(towerA.pop())\n      \n        # move the upper n-1 discs from tower B to tower C\n        hanoi(n - 1, towerB, towerA, towerC)\n\n\ntower1=[4,3,2,1]\ntower2=[]\ntower3=[]\n\nprint(tower1, tower2, tower3)\nhanoi(len(tower1), tower1, tower2, tower3)\nprint(tower1, tower2, tower3)"
+    "text": "Ein datenwissenschaftlicher Blogbeitrag\n\n\nEine Reise durch einige Möglichkeiten von Quarto\n\n\nDieser Beitrag illustriert eine Reihe von Möglichkeiten, die bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren.\n\n\n\n\n\n17.02.2024\n\n\nMalte Hagener, Andrea Rapp\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "personen/index.html",
+    "href": "personen/index.html",
+    "title": "Personen",
+    "section": "",
+    "text": "Mitarbeiter*innen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMalte Hagener\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKeine Treffer"
   }
 ]
