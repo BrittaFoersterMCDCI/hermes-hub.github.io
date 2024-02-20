@@ -1,0 +1,14 @@
+website:
+  comments: 
+    hypothesis:
+      openSidebar: true
+
+format:
+  html:
+    theme: cosmo
+    css: /styles.css
+    toc: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true

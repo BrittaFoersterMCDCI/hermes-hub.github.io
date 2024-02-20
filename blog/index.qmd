@@ -1,13 +1,6 @@
 ---
-title: "Blog"
-website:
-  comments: 
-    hypothesis:
-      openSidebar: true
+title: "Hermes Blog"
 listing:
-  contents:
-    - eintrag1blog.qmd
+  contents: "*.qmd"
+  sort: "date desc"
 ---
-## HERMES BLOG  
-
-bitte kommentieren.
