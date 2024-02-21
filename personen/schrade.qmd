@@ -1,0 +1,10 @@
+---
+title: "Torsten Schrade"
+categories:
+  - NFDI4Culture
+  - Digitale Geisteswissenschaften
+image: "https://www.adwmainz.de/fileadmin/_processed_/csm_Torsten_Schrade_small_6447e5ca11.jpg"
+---
+
+Torsten Schrade ist Professor für Digital Humanities an der Hochschule Mainz. Weitere Informationen auf <a href=https://orcid.org/0000-0002-0953-2818>Orcid</a> oder an der <a href=https://www.adwmainz.de/mitarbeiterinnen/profil/prof-torsten-schrade.html>Hochschule Mainz</a>
+

@@ -1,0 +1,10 @@
+---
+title: "Andrea Rapp"
+categories:
+  - Computerlinguistik
+  - Digitale Geisteswissenschaften
+image: "https://www.linglit.tu-darmstadt.de/media/linglit/mitarbeitende/FotoRappAndrea_vonKatrinBinner_415x415.jpg"
+---
+
+Andrea Rapp ist Professorin am Insitut für Sprach- und Literaturwissenschaft der TU Darmstadt. Weitere Informationen auf <a href=https://orcid.org/0000-0003-4933-4397>Orcid</a> oder an der <a href=https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/andrearapp/index.de.jsp>TU Darmstadt</a>
+

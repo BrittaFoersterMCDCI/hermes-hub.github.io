@@ -2,6 +2,7 @@
 title: "Formate"
 listing:
   id: test
+  image-height: 100px
   contents:
     - carpentries.qmd
     - challenges.qmd

@@ -3,6 +3,9 @@ title: "Personen"
 listing:
     contents:
       - hagener.qmd
+      - rapp.qmd
+      - lemaire.qmd
+      - schrade.qmd
     type: grid
 ---
 
