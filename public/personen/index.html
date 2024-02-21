@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
@@ -96,9 +103,41 @@ ul.task-list li input[type="checkbox"] {
 }
 </script>
 <script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -107,9 +146,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Hermeshub</span>
     </a>
@@ -121,87 +160,87 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../personen/index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Personen</span></a>
+    <a class="nav-link active" href="../personen/index.html" aria-current="page"> 
+<span class="menu-text">Personen</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-veranstaltungen" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-veranstaltungen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Veranstaltungen</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-veranstaltungen">    
         <li>
-    <a class="dropdown-item" href="../veranstaltungen/index.html" rel="" target="">
+    <a class="dropdown-item" href="../veranstaltungen/index.html">
  <span class="dropdown-text">Veranstaltungen</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../veranstaltungen/einreichen.html" rel="" target="">
+    <a class="dropdown-item" href="../veranstaltungen/einreichen.html">
  <span class="dropdown-text">Veranstaltungen eintragen</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html" rel="" target="">
- <span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="../blog/index.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-formate" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-formate" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Formate</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-formate">    
         <li>
-    <a class="dropdown-item" href="../projekte/index.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/index.html">
  <span class="dropdown-text">Formate</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/carpentries.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/carpentries.html">
  <span class="dropdown-text">Data Carpentries</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/challenges.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/challenges.html">
  <span class="dropdown-text">Data Challenges</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/communication.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/communication.html">
  <span class="dropdown-text">Kommunikationsformate</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/hub.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/hub.html">
  <span class="dropdown-text">Hermes Hub</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/labs.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/labs.html">
  <span class="dropdown-text">Bring-your-own-data-labs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/oer.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/oer.html">
  <span class="dropdown-text">Open Educational Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/stipendien.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/stipendien.html">
  <span class="dropdown-text">Forschungsstudienprogramm</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/transfer.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/transfer.html">
  <span class="dropdown-text">Transferwerkstatt</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../projekte/wisskomm.html" rel="" target="">
+    <a class="dropdown-item" href="../projekte/wisskomm.html">
  <span class="dropdown-text">Virtual Wisskomm Academy</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../contact.html" rel="" target="">
- <span class="menu-text">Kontakt</span></a>
+    <a class="nav-link" href="../contact.html"> 
+<span class="menu-text">Kontakt</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -230,7 +269,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>Mitarbeiter*innen</p>
 
@@ -239,7 +280,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Computerlinguistik,Digitale Geisteswissenschaften" data-listing-file-modified-sort="1708509150815" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="0" data-categories="Computerlinguistik,Digitale Geisteswissenschaften" data-listing-file-modified-sort="1708547504083" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
 <a href="../personen/rapp.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -261,7 +302,7 @@ Andrea Rapp ist Professorin am Insitut für Sprach- und Literaturwissenschaft de
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Filmtheorie,Medienarchäologie,Digitale Geisteswissenschaften" data-listing-file-modified-sort="1708439242185" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="1" data-categories="Filmtheorie,Medienarchäologie,Digitale Geisteswissenschaften" data-listing-file-modified-sort="1708422727850" data-listing-reading-time-sort="1" data-listing-word-count-sort="28">
 <a href="../personen/hagener.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -272,7 +313,7 @@ Andrea Rapp ist Professorin am Insitut für Sprach- und Literaturwissenschaft de
 Malte Hagener
 </h5>
 <div class="card-text listing-description">
-Mal…
+Malte Hagener ist Professor am Insitut für Medienwissenschaften der Philipps-Universität Marburg. Er ist zudem der Verbundsprecher des HERMES-Projektes. Weitere…
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -283,7 +324,7 @@ Mal…
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Strategieentwicklung,Digitale Geisteswissenschaften" data-listing-file-modified-sort="1708509309277" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-categories="Strategieentwicklung,Digitale Geisteswissenschaften" data-listing-file-modified-sort="1708547504083" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <a href="../personen/lemaire.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -294,7 +335,7 @@ Mal…
 Marina LeMaire
 </h5>
 <div class="card-text listing-description">
-Marina LeMaire ist Referentin für…
+Marina LeMaire ist Referentin für Projektmanagement im Bereich digitale Forschungsinfrastrukturen in den Geistes- und Sozialwissenschaften am Servicezentrum eSciences der…
 </div>
 <div class="card-attribution card-text-small start">
 <div class="listing-author">
@@ -305,7 +346,7 @@ Marina LeMaire ist Referentin für…
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="NFDI4Culture,Digitale Geisteswissenschaften" data-listing-file-modified-sort="1708509440435" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-categories="NFDI4Culture,Digitale Geisteswissenschaften" data-listing-file-modified-sort="1708547504083" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
 <a href="../personen/schrade.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -411,10 +452,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -424,8 +464,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -438,6 +487,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -481,6 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -506,6 +675,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -566,6 +761,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
