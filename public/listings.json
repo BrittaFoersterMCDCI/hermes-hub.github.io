@@ -1,11 +1,8 @@
 [
   {
-    "listing": "/personen/index.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/personen/rapp.html",
-      "/personen/hagener.html",
-      "/personen/lemaire.html",
-      "/personen/schrade.html"
+      "/blog/2024/01/index.html"
     ]
   },
   {
@@ -18,37 +15,26 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/2024/01/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
-      "/projekte/labs.html",
-      "/projekte/carpentries.html",
-      "/projekte/challenges.html",
-      "/projekte/stipendien.html",
-      "/projekte/hub.html",
-      "/projekte/communication.html",
-      "/projekte/oer.html",
-      "/projekte/transfer.html",
-      "/projekte/wisskomm.html"
+      "/formate/byod-labs/index.html",
+      "/formate/carpentries/index.html",
+      "/formate/challenges/index.html",
+      "/formate/stipendien/index.html",
+      "/formate/hermes-hub/index.html",
+      "/formate/kommunikationsformate/index.html",
+      "/formate/oer/index.html",
+      "/formate/transferwerkstatt/index.html",
+      "/formate/wisskomm/index.html"
     ]
   },
   {
-    "listing": "/projekte/index.html",
+    "listing": "/team/index.html",
     "items": [
-      "/projekte/labs.html",
-      "/projekte/carpentries.html",
-      "/projekte/challenges.html",
-      "/projekte/stipendien.html",
-      "/projekte/hub.html",
-      "/projekte/communication.html",
-      "/projekte/oer.html",
-      "/projekte/transfer.html",
-      "/projekte/wisskomm.html"
+      "/team/rapp.html",
+      "/team/hagener.html",
+      "/team/lemaire.html",
+      "/team/schrade.html"
     ]
   }
 ]

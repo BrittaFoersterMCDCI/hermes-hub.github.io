@@ -6,7 +6,8 @@ website:
 format:
   html:
     theme: cosmo
-    css: /styles.css
+    page-layout: article
+    css: /layout/styles.css
     toc: true
   pdf:
     toc: true

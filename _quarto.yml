@@ -1,42 +1,40 @@
 project:
   type: website
   output-dir: public
+
 lang: de
 
 website:
-  title: "Hermeshub"
+  title: "HERMES"
   comments: 
     hypothesis:
       openSidebar: false
   navbar:
     left:
-      - text: Home
-        file: index.qmd        
-      - text: Personen
-        file: personen/index.qmd        
+      - text: Startseite
+        file: index.qmd
+      - text: Formate
+        menu:
+          - formate/byod-labs/index.qmd
+          - formate/carpentries/index.qmd
+          - formate/challenges/index.qmd
+          - formate/hermes-hub/index.qmd
+          - formate/kommunikationsformate/index.qmd
+          - formate/oer/index.qmd
+          - formate/stipendien/index.qmd
+          - formate/transferwerkstatt/index.qmd
+          - formate/wisskomm/index.qmd        
+      - team/index.qmd        
       - text: Veranstaltungen
         menu:
           - veranstaltungen/index.qmd
           - veranstaltungen/einreichen.qmd
-      - text: Blog
-        file: blog/index.qmd        
-      - text: Formate
-        menu:
-          - projekte/index.qmd
-          - projekte/carpentries.qmd
-          - projekte/challenges.qmd
-          - projekte/communication.qmd
-          - projekte/hub.qmd
-          - projekte/labs.qmd
-          - projekte/oer.qmd
-          - projekte/stipendien.qmd
-          - projekte/transfer.qmd
-          - projekte/wisskomm.qmd
-      - href: contact.qmd
-        text: "Kontakt"
+      - blog/index.qmd        
+      - kontakt.qmd
 
 format:
   html:
     theme: cosmo
-    css: styles.css
+    page-layout: full
+    css: /layout/styles.css
     toc: true

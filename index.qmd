@@ -1,47 +1,41 @@
 ---
 title: "HERMES"
-title-block-banner: desk.jpg
 subtitle: "Humanities Education in Research, Data, and Methods"
+toc: false
 listing:
   - id: index
     contents:
-      - transfer.qmd
-      - oer.qmd
-      - hub.qmd
-      - challenges.qmd
-      - carpentries.qmd
-      - labs.qmd
-      - wisskomm.qmd
-      - stipendien.qmd
-      - communication.qmd
+      - formate/byod-labs/index.qmd
+      - formate/carpentries/index.qmd
+      - formate/challenges/index.qmd
+      - formate/hermes-hub/index.qmd
+      - formate/kommunikationsformate/index.qmd
+      - formate/oer/index.qmd
+      - formate/stipendien/index.qmd
+      - formate/transferwerkstatt/index.qmd
+      - formate/wisskomm/index.qmd 
     type: grid
   - id: partner
-    template: partner/partner.ejs
+    template: partner.ejs
     contents: partner.yml
   - id: foerderung
-    template: partner/foerderung.ejs
+    template: foerderung.ejs
     contents: foerderung.yml
 ---
 
 HERMES etabliert Orte des Lernens, Forschens und Vernetzens, an denen Datenkompetenzen in den Geistes- und Kulturwissenschaften vermittelt, weiterentwickelt und kritisch reflektiert werden. Hierzu konzipiert und erprobt HERMES folgende Formate:
 
-
+## Formate
 
 ::: {#index}
-
 :::
 
-
-
-
+## Trägereinrichtungen
 
 ::: {#partner}
-
 :::
 
-
-
+## Gefördert durch
 
 ::: {#foerderung}
-
 :::
