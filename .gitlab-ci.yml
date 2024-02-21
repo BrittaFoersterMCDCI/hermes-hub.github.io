@@ -1,10 +1,10 @@
-image: registry.gitlab.com/quarto-forge/docker/python
+image: alpine:latest
 
 pages:
   stage: deploy
   environment: production
   script:
-    - quarto render project
+    - echo "Es gibt nichts zu sehen..."
   artifacts:
     paths:
       - public
