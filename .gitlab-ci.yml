@@ -1,8 +1,10 @@
+image: alpine:latest
+
 pages:
   stage: deploy
   environment: production
   script:
-    - echo "Alles gut"
+    - quarto render project
   artifacts:
     paths:
       - public
