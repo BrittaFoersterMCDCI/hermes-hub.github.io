@@ -2,9 +2,9 @@
 
 <div class="grid text-center">
     <% for (const item of items) { %>
-      <div class="g-col-4">
+      <div class="g-col-4 g-col-md-6 g-col-sm-12">
         <a href="<%= item.website %>">
-          <img src="<%= item.img %>" alt="<%= item.title %>" width="200px"/>
+          <img class="img-fluid" src="<%= item.img %>" alt="<%= item.title %>"/>
         </a>
       </div>
     <% } %>
