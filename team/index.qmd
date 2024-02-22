@@ -1,12 +1,6 @@
 ---
 title: "Team"
 listing:
-    contents:
-      - hagener.qmd
-      - rapp.qmd
-      - lemaire.qmd
-      - schrade.qmd
-    type: grid
+    contents: "*.qmd"
+    template: team.ejs
 ---
-
-Mitarbeiter*innen

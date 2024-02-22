@@ -1,0 +1,14 @@
+```{=html}
+
+<div class="grid text-center" style="align-items: center;">
+    <% for (const item of items) { %>
+      <div class="g-col-6 g-col-sm-4 g-col-md-3">
+        <a href="<%- item.path %>" class="text-secondary" style="text-decoration: none;">
+            <img class="rounded-circle img-fluid" src="<%= item.img %>" style="max-height: 200px;" alt="<%= item.title %>"/>
+            <h4><%= item.title %></h4> 
+        </a>
+      </div>
+    <% } %>
+</div>
+
+```

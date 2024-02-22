@@ -21,10 +21,9 @@
   {
     "listing": "/team/index.html",
     "items": [
-      "/team/rapp.html",
-      "/team/hagener.html",
-      "/team/lemaire.html",
-      "/team/schrade.html"
+      "/team/rapp/index.html",
+      "/team/hagener/index.html",
+      "/team/schrade/index.html"
     ]
   }
 ]

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HERMES - Hermes Blog</title>
+<title>HERMES - Malte Hagener</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script type="application/json" class="js-hypothesis-config">
 {
   "openSidebar": false
@@ -111,37 +80,8 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../layout/styles.css">
+<link rel="stylesheet" href="../../layout/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -151,7 +91,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">HERMES</span>
     </a>
   </div>
@@ -162,7 +102,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Startseite</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -171,45 +111,45 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-formate">    
         <li>
-    <a class="dropdown-item" href="../formate/byod-labs/index.html">
+    <a class="dropdown-item" href="../../formate/byod-labs/index.html">
  <span class="dropdown-text">Bring-your-own-data-labs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../formate/carpentries/index.html">
+    <a class="dropdown-item" href="../../formate/carpentries/index.html">
  <span class="dropdown-text">Data Carpentries</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../formate/challenges/index.html">
+    <a class="dropdown-item" href="../../formate/challenges/index.html">
  <span class="dropdown-text">Data Challenges</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../formate/hermes-hub/index.html">
+    <a class="dropdown-item" href="../../formate/hermes-hub/index.html">
  <span class="dropdown-text">Hermes Hub</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../formate/kommunikationsformate/index.html">
+    <a class="dropdown-item" href="../../formate/kommunikationsformate/index.html">
  <span class="dropdown-text">Kommunikationsformate</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../formate/oer/index.html">
+    <a class="dropdown-item" href="../../formate/oer/index.html">
  <span class="dropdown-text">Open Educational Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../formate/stipendien/index.html">
+    <a class="dropdown-item" href="../../formate/stipendien/index.html">
  <span class="dropdown-text">Forschungsstudienprogramm</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../formate/transferwerkstatt/index.html">
+    <a class="dropdown-item" href="../../formate/transferwerkstatt/index.html">
  <span class="dropdown-text">Transferwerkstatt</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../formate/wisskomm/index.html">
+    <a class="dropdown-item" href="../../formate/wisskomm/index.html">
  <span class="dropdown-text">Virtual Wisskomm Academy</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../team/index.html"> 
+    <a class="nav-link" href="../../team/index.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -218,21 +158,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-veranstaltungen">    
         <li>
-    <a class="dropdown-item" href="../veranstaltungen/index.html">
+    <a class="dropdown-item" href="../../veranstaltungen/index.html">
  <span class="dropdown-text">Veranstaltungen</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../veranstaltungen/einreichen.html">
+    <a class="dropdown-item" href="../../veranstaltungen/einreichen.html">
  <span class="dropdown-text">Veranstaltungen eintragen</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Hermes Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../kontakt.html"> 
+    <a class="nav-link" href="../../kontakt.html"> 
 <span class="menu-text">Kontakt aufnehmen</span></a>
   </li>  
 </ul>
@@ -243,23 +183,28 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hermes Blog</h1>
-</div>
+<h1 class="title">Malte Hagener</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Filmtheorie</div>
+    <div class="quarto-category">Medienarchäologie</div>
+    <div class="quarto-category">Digitale Geisteswissenschaften</div>
+  </div>
+  </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -271,45 +216,11 @@ window.Quarto = {
 </header>
 
 
+<p>Malte Hagener ist Professor am Insitut für Medienwissenschaften der Philipps-Universität Marburg. Er ist zudem der Verbundsprecher des HERMES-Projektes. Weitere Informationen auf <a href="https://orcid.org/0000-0003-4664-5536">Orcid</a> oder an der <a href="https://www.uni-marburg.de/de/fb09/medienwissenschaft/institut/personen-1/malte-hagener">Philipps-Universität</a></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Data Science,Python,Digital Humanities" data-listing-date-sort="1708124400000" data-listing-file-modified-sort="1708437157750" data-listing-date-modified-sort="1708383600000" data-listing-reading-time-sort="9" data-listing-word-count-sort="1685">
-<div class="thumbnail">
-<p><a href="../blog/2024/01/index.html" class="no-external"></a></p><a href="../blog/2024/01/index.html" class="no-external">
-<p class="card-img-top"><img src="2024/01/index_files/figure-html/fig-polar-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="../blog/2024/01/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/2024/01/index.html" class="no-external">Ein datenwissenschaftlicher Blogbeitrag</a>
-</h3>
-<div class="listing-subtitle">
-<a href="../blog/2024/01/index.html" class="no-external">Eine Reise durch einige Möglichkeiten von Quarto</a>
-</div>
-<div class="listing-description">
-<a href="../blog/2024/01/index.html" class="no-external">Dieser Beitrag illustriert eine Reihe von Möglichkeiten, die bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="../blog/2024/01/index.html" class="no-external">
-<div class="listing-date">
-17.02.2024
-</div>
-<div class="listing-author">
-Malte Hagener, Andrea Rapp
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Keine Treffer
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
