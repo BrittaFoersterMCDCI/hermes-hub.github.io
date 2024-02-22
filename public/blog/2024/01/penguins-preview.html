@@ -1,88 +1,167 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.4.549">
 
-<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.4.549" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>HERMES - Palmer Penguins (.ipynb)</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+      /* CSS for syntax highlighting */
+      pre > code.sourceCode { white-space: pre; position: relative; }
+      pre > code.sourceCode > span { line-height: 1.25; }
+      pre > code.sourceCode > span:empty { height: 1.2em; }
+      .sourceCode { overflow: visible; }
+      code.sourceCode > span { color: inherit; text-decoration: inherit; }
+      div.sourceCode { margin: 1em 0; }
+      pre.sourceCode { margin: 0; }
+      @media screen {
+      div.sourceCode { overflow: auto; }
+      }
+      @media print {
+      pre > code.sourceCode { white-space: pre-wrap; }
+      pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+      }
+      pre.numberSource code
+        { counter-reset: source-line 0; }
+      pre.numberSource code > span
+        { position: relative; left: -4em; counter-increment: source-line; }
+      pre.numberSource code > span > a:first-child::before
+        { content: counter(source-line);
+          position: relative; left: -1em; text-align: right; vertical-align: baseline;
+          border: none; display: inline-block;
+          -webkit-touch-callout: none; -webkit-user-select: none;
+          -khtml-user-select: none; -moz-user-select: none;
+          -ms-user-select: none; user-select: none;
+          padding: 0 4px; width: 4em;
+        }
+      pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+      div.sourceCode
+        {   }
+      @media screen {
+      pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+      }
+    </style>
 
-<meta name="author" content="Malte Hagener" />
-<meta name="author" content="Andrea Rapp" />
-<meta name="description" content="Dieser Beitrag illustriert eine Reihe von Möglichkeiten, die bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren." />
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
 
-<title>HERMES – Ein datenwissenschaftlicher Blogbeitrag</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
 
-<!-- htmldependencies:E3FAD763 -->
-<script id="quarto-search-options" type="application/json">{
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = '/';
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+     <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -108,120 +187,118 @@ div.csl-indent {
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
   }
-}</script>
-<script type="application/json" class="js-hypothesis-config">
+}</script>  <script type="application/json" class="js-hypothesis-config">
 {
   "openSidebar": true
 }
 </script>
-<script async src="https://hypothes.is/embed.js"></script>
+<script async="" src="https://hypothes.is/embed.js"></script>
 <script>
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     document.body.classList.add('hypothesis-enabled');
   });
-</script>
-<script  src="../../../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script  src="../../../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link  href="../../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" data-relocate-top="true"></script>
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+</script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
 
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>  
+        <link rel="stylesheet" href="../../../layout/styles.css">
+      </head>
 
-<link rel="stylesheet" href="/layout/styles.css" />
-</head>
+  <body class="floating nav-fixed quarto-notebook">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link"><i class="bi bi-caret-left"></i> Zurück zum Artikel</a>
+      <h6><i class="bi bi-journal-code"></i> Palmer Penguins (.ipynb)</h6>
 
-<body>
+            <a href="../../../blog/2024/01/penguins.ipynb" class="btn btn-primary quarto-download-embed" download="penguins.ipynb">Notizbuch herunterladen</a>
+          </div>
 
-<div id="quarto-search-results"></div>
+     <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="/index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">HERMES</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Suchen"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Startseite</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-formate" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-formate" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Formate</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-formate">    
         <li>
-    <a class="dropdown-item" href="/formate/byod-labs/index.html">
+    <a class="dropdown-item" href="../../../formate/byod-labs/index.html">
  <span class="dropdown-text">Bring-your-own-data-labs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/formate/carpentries/index.html">
+    <a class="dropdown-item" href="../../../formate/carpentries/index.html">
  <span class="dropdown-text">Data Carpentries</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/formate/challenges/index.html">
+    <a class="dropdown-item" href="../../../formate/challenges/index.html">
  <span class="dropdown-text">Data Challenges</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/formate/hermes-hub/index.html">
+    <a class="dropdown-item" href="../../../formate/hermes-hub/index.html">
  <span class="dropdown-text">Hermes Hub</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/formate/kommunikationsformate/index.html">
+    <a class="dropdown-item" href="../../../formate/kommunikationsformate/index.html">
  <span class="dropdown-text">Kommunikationsformate</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/formate/oer/index.html">
+    <a class="dropdown-item" href="../../../formate/oer/index.html">
  <span class="dropdown-text">Open Educational Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/formate/stipendien/index.html">
+    <a class="dropdown-item" href="../../../formate/stipendien/index.html">
  <span class="dropdown-text">Forschungsstudienprogramm</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/formate/transferwerkstatt/index.html">
+    <a class="dropdown-item" href="../../../formate/transferwerkstatt/index.html">
  <span class="dropdown-text">Transferwerkstatt</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/formate/wisskomm/index.html">
+    <a class="dropdown-item" href="../../../formate/wisskomm/index.html">
  <span class="dropdown-text">Virtual Wisskomm Academy</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/team/index.html"> 
+    <a class="nav-link" href="../../../team/index.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-veranstaltungen" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-veranstaltungen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Veranstaltungen</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-veranstaltungen">    
         <li>
-    <a class="dropdown-item" href="/veranstaltungen/index.html">
+    <a class="dropdown-item" href="../../../veranstaltungen/index.html">
  <span class="dropdown-text">Veranstaltungen</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/veranstaltungen/einreichen.html">
+    <a class="dropdown-item" href="../../../veranstaltungen/einreichen.html">
  <span class="dropdown-text">Veranstaltungen eintragen</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/blog/index.html"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Hermes Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/kontakt.html"> 
+    <a class="nav-link" href="../../../kontakt.html"> 
 <span class="menu-text">Kontakt aufnehmen</span></a>
   </li>  
 </ul>
@@ -234,254 +311,163 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ein datenwissenschaftlicher Blogbeitrag</h1>
-<p class="subtitle lead">Eine Reise durch einige Möglichkeiten von Quarto</p>
-  <div class="quarto-categories">
-    <div class="quarto-category">Data Science</div>
-    <div class="quarto-category">Python</div>
-    <div class="quarto-category">Digital Humanities</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    Dieser Beitrag illustriert eine Reihe von Möglichkeiten, die bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren.
-  </div>
+<h1 class="title">Palmer Penguins (.ipynb)</h1>
 </div>
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Autor:innen</div>
-  <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://www.uni-marburg.de/de/fb09/medienwissenschaft/institut/personen-1/malte-hagener">Malte Hagener</a> <a href="mailto:malte.hagener@uni-marburg.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-4664-5536" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://www.uni-marburg.de">
-            Philipps-Universität Marburg
-            </a>
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author"><a href="https://www.linglit.tu-darmstadt.de/institutlinglit/mitarbeitende/andrearapp/index.de.jsp">Andrea Rapp</a> <a href="mailto:andrea.rapp@tu-darmstadt.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-4933-4397" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://www.tu-darmstadt.de">
-            Technische Universität Darmstadt
-            </a>
-          </p>
-      </div>
-  </div>
+
 
 <div class="quarto-title-meta">
 
-      
-    <div>
-    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">17. Februar 2024</p>
-    </div>
-  </div>
-  
-    <div>
-    <div class="quarto-title-meta-heading">Geändert</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">20. Februar 2024</p>
-    </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Doi</div>
-    <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/10.17175/2023_003">10.17175/2023_003</a>
-      </p>
-    </div>
-  </div>
+  
+    
   </div>
   
 
 
-</header>
+</header>   <div class="cell-container"><div class="cell-decorator"><pre>In [1]:</pre></div><div id="d60062d2-fbc5-44b4-bbe2-a0a91b091b80" class="cell" data-tags="[]" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> altair <span class="im">as</span> alt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> matplotlib <span class="im">import</span> pyplot <span class="im">as</span> plt</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<div id="9e6674be-36f4-43c1-acac-e2ed05f48885" class="cell markdown">
+<p>Data from <a href="https://allisonhorst.github.io/palmerpenguins/">Palmer Penguins R package</a></p>
+</div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [2]:</pre></div><div id="a5023e8f-9166-4a12-8b9d-0d23124b6065" class="cell" data-tags="[&quot;import&quot;]" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="op">=</span> pd.read_csv(<span class="st">"https://pos.it/palmer-penguins-github-csv"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [3]:</pre></div><div id="cell-species-counts" class="cell" data-tags="[]" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>penguins.groupby(<span class="st">"species"</span>).size().reset_index(name <span class="op">=</span> <span class="st">"count"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="species-counts" class="cell-output cell-output-display" data-execution_count="3">
+<div>
 
-<nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul>
-  <li><a href="#unser-blogbeitrag" id="toc-unser-blogbeitrag">Unser Blogbeitrag</a>
-  <ul>
-  <li><a href="#überschrift-2" id="toc-überschrift-2">Überschrift 2</a></li>
-  </ul></li>
-  <li><a href="#einbindung-von-code-und-notebooks" id="toc-einbindung-von-code-und-notebooks">Einbindung von Code und Notebooks</a>
-  <ul>
-  <li><a href="#ein-bisschen-python-gefällig" id="toc-ein-bisschen-python-gefällig">Ein bisschen Python gefällig?</a></li>
-  </ul></li>
-  <li><a href="#eine-weitere-überschrift" id="toc-eine-weitere-überschrift">Eine weitere Überschrift</a></li>
-  <li><a href="#bibliographie" id="toc-bibliographie">Bibliographie</a></li>
-  </ul>
-</nav>
-<section id="unser-blogbeitrag" class="level1">
-<h1>Unser Blogbeitrag</h1>
-<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden. Dies ist ein Typoblindtext.<span class="citation" data-cites="karsdorp_humanities_2021">(<a href="#ref-karsdorp_humanities_2021" role="doc-biblioref">Karsdorp, Kestemont und Riddell 2021</a>)</span> An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.</p>
-<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten.<span class="citation" data-cites="altenhoner_nfdi4culture_2020">(<a href="#ref-altenhoner_nfdi4culture_2020" role="doc-biblioref">Altenhöner u. a. 2020</a>)</span> Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.</p>
-<section id="überschrift-2" class="level2">
-<h2>Überschrift 2</h2>
-<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.</p>
-<p>Siehe <a href="#tbl-panel" class="quarto-xref">Tabelle 1</a> und für weitere Details insbesondere <a href="#tbl-second" class="quarto-xref">Tabelle 1 (b)</a>.</p>
-<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte<span class="citation" data-cites="zweig_algorithmus_2019">(<a href="#ref-zweig_algorithmus_2019" role="doc-biblioref">Zweig 2019</a>)</span> auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.</p>
-<div id="tbl-panel" class="quarto-layout-panel">
-<figure class="quarto-float quarto-float-tbl">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabelle 1: Enorm wichtige Daten.
-</figcaption>
-<div aria-describedby="tbl-panel-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-panel" style="flex-basis: 50.0%;justify-content: center;">
-<div id="tbl-first" class="quarto-float">
-<figure class="quarto-float quarto-subfloat-tbl">
-<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-first-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(a) Wichtige Daten
-</figcaption>
-<div aria-describedby="tbl-first-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table>
+
+<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
-<th style="text-align: left;">Col1</th>
-<th style="text-align: left;">Col2</th>
-<th style="text-align: left;">Col3</th>
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">species</th>
+<th data-quarto-table-cell-role="th">count</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">B</td>
-<td style="text-align: left;">C</td>
+<td data-quarto-table-cell-role="th">0</td>
+<td>Adelie</td>
+<td>152</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">E</td>
-<td style="text-align: left;">F</td>
-<td style="text-align: left;">G</td>
+<td data-quarto-table-cell-role="th">1</td>
+<td>Chinstrap</td>
+<td>68</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">G</td>
-<td style="text-align: left;">G</td>
+<td data-quarto-table-cell-role="th">2</td>
+<td>Gentoo</td>
+<td>124</td>
 </tr>
 </tbody>
 </table>
-</div>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="tbl-panel" style="flex-basis: 50.0%;justify-content: center;">
-<div id="tbl-second" class="quarto-float">
-<figure class="quarto-float quarto-subfloat-tbl">
-<figcaption class="quarto-float-caption-top quarto-subfloat-caption quarto-subfloat-tbl" id="tbl-second-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-(b) Die entscheidenden Details
-</figcaption>
-<div aria-describedby="tbl-second-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Col1</th>
-<th style="text-align: left;">Col2</th>
-<th style="text-align: left;">Col3</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">B</td>
-<td style="text-align: left;">C</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">E</td>
-<td style="text-align: left;">F</td>
-<td style="text-align: left;">G</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">A</td>
-<td style="text-align: left;">G</td>
-<td style="text-align: left;">G</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
+
 </div>
 </div>
-</div>
-</div>
-</figure>
-</div>
-</section>
-</section>
-<section id="einbindung-von-code-und-notebooks" class="level1">
-<h1>Einbindung von Code und Notebooks</h1>
-<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«.<span class="citation" data-cites="manovich_cultural_2020">(<a href="#ref-manovich_cultural_2020" role="doc-biblioref">Manovich 2020</a>)</span> Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.</p>
-<section id="ein-bisschen-python-gefällig" class="level2">
-<h2>Ein bisschen Python gefällig?</h2>
-<p>Wir können auch Python-Code mit Quarto darstellen (s. <a href="#fig-fibo" class="quarto-xref">Abbildung 1</a>)!</p>
-<div id="fig-fibo" class="quarto-figure quarto-figure-center quarto-float">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-fibo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="sourceCode" id="fig-fibo"><pre class="sourceCode python"><code class="sourceCode python"><span id="fig-fibo-1"><a href="#fig-fibo-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> fib(n):</span>
-<span id="fig-fibo-2"><a href="#fig-fibo-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="op">&lt;</span> <span class="dv">1</span>:</span>
-<span id="fig-fibo-3"><a href="#fig-fibo-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">raise</span> <span class="pp">Exception</span>(<span class="st">&#39;undefined&#39;</span>)</span>
-<span id="fig-fibo-4"><a href="#fig-fibo-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">&lt;</span> <span class="dv">3</span>:</span>
-<span id="fig-fibo-5"><a href="#fig-fibo-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="dv">1</span></span>
-<span id="fig-fibo-6"><a href="#fig-fibo-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
-<span id="fig-fibo-7"><a href="#fig-fibo-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> fib(n<span class="op">-</span><span class="dv">1</span>) <span class="op">+</span> fib(n<span class="op">-</span><span class="dv">2</span>)</span></code></pre></div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fibo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung 1: Rekursive Funktion zur Berechnung von Fibonacci-Zahlen.
-</figcaption>
-</figure>
-</div>
-<p>Wir können aber auch Python-Code ausführen lassen und z.B. eine Visualisierung mit matplotlib erzeugen, s. <a href="#fig-polar" class="quarto-xref">Abbildung 2</a>.</p>
-<div id="cell-fig-polar" class="cell" data-execution_count="1">
-<div class="sourceCode" id="cb1"><pre class="sourceCode python cell-code"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>theta <span class="op">=</span> <span class="dv">2</span> <span class="op">*</span> np.pi <span class="op">*</span> r</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  subplot_kw <span class="op">=</span> {<span class="st">&#39;projection&#39;</span>: <span class="st">&#39;polar&#39;</span>} </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>ax.plot(theta, r)</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>ax.set_rticks([<span class="fl">0.5</span>, <span class="dv">1</span>, <span class="fl">1.5</span>, <span class="dv">2</span>])</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [4]:</pre></div><div id="2f185890-975f-4902-88ff-1c6632221e42" class="cell" data-tags="[]" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">"#FF8C00"</span>, <span class="st">"#A020F0"</span>, <span class="st">"#008B8B"</span>]</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>sns.set_palette(colors, n_colors <span class="op">=</span> <span class="dv">3</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [5]:</pre></div><div id="d407de9b-a246-4bda-b0f9-f1312bb0cd4a" class="cell" data-tags="[&quot;bill-ratio&quot;]" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>penguins[<span class="st">"bill_ratio"</span>] <span class="op">=</span> (</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>   penguins[<span class="st">"bill_length_mm"</span>] <span class="op">/</span> penguins[<span class="st">"bill_depth_mm"</span>] </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>sns.displot(penguins, </span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>            x <span class="op">=</span> <span class="st">"bill_ratio"</span>, </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            hue <span class="op">=</span> <span class="st">"species"</span>, </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>            kind <span class="op">=</span> <span class="st">"kde"</span>, fill <span class="op">=</span> <span class="va">True</span>, aspect <span class="op">=</span> <span class="dv">2</span>, height <span class="op">=</span> <span class="dv">3</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="fig-polar" class="quarto-figure quarto-figure-center quarto-float">
-<figure class="quarto-float quarto-float-fig">
-<div aria-describedby="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="index_files/figure-html/fig-polar-output-1.png" width="450" height="439" />
+<div class="">
+<figure class="figure">
+<p class=""><img src="penguins_files/figure-html/cell-6-output-1.png" class="img-fluid figure-img" alt="A density plot of bill ratio by species."></p>
+</figure>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-polar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung 2: A line plot on a polar axis
+</div>
+</div></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>sns.displot(penguins, </span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>            x <span class="op">=</span> <span class="st">"bill_depth_mm"</span>, </span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>            hue <span class="op">=</span> <span class="st">"species"</span>, </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>            kind <span class="op">=</span> <span class="st">"kde"</span>, fill <span class="op">=</span> <span class="va">True</span>, </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>            aspect <span class="op">=</span> <span class="dv">2</span>, height <span class="op">=</span> <span class="dv">3</span>)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>sns.displot(penguins, </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>            x <span class="op">=</span> <span class="st">"bill_length_mm"</span>, </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>            hue <span class="op">=</span> <span class="st">"species"</span>, </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>            kind <span class="op">=</span> <span class="st">"kde"</span>, fill <span class="op">=</span> <span class="va">True</span>, </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>            aspect <span class="op">=</span> <span class="dv">2</span>, height <span class="op">=</span> <span class="dv">3</span>)</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="fig-bill-marginal" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bill-marginal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="cell-output cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-bill-marginal" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-bill-marginal-1" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Density plot of bill depth by species.">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-bill-marginal-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="penguins_files/figure-html/fig-bill-marginal-output-1.png" class="img-fluid figure-img" data-ref-parent="fig-bill-marginal" alt="Density plot of bill depth by species.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-bill-marginal-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Gentoo penguins tend to have thinner bills,
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-bill-marginal" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-bill-marginal-2" class="quarto-figure quarto-figure-center quarto-float anchored" alt="Density plot of bill length by species.">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-bill-marginal-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="penguins_files/figure-html/fig-bill-marginal-output-2.png" class="img-fluid figure-img" data-ref-parent="fig-bill-marginal" alt="Density plot of bill length by species.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-bill-marginal-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) and Adelie penguins tend to have shorter bills.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë<span class="citation" data-cites="cremer_chimare_2018">(<a href="#ref-cremer_chimare_2018" role="doc-biblioref">Cremer, Klaffki und Steyer 2018</a>)</span>, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden. Dies ist ein Typoblindtext. An ihm kann man sehen, ob alle Buchstaben da sind und wie sie aussehen. Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden. Nichteinhaltung wird mit bis zu 245 € oder 368 $ bestraft. Genauso wichtig in sind mittlerweile auch Âçcèñtë, die in neueren Schriften aber fast immer enthalten sind. Ein wichtiges aber schwierig zu integrierendes Feld sind OpenType-Funktionalitäten. Je nach Software und Voreinstellungen können eingebaute Kapitälchen, Kerning oder Ligaturen (sehr pfiffig) nicht richtig dargestellt werden.</p>
-<p>Wir können auch Code aus einem Jupyter-Notebook einbinden:</p>
-<div class="quarto-embed-nb-cell" data-notebook="/Users/stefan/Projekte/hermes-hub/blog/2024/01/penguins.ipynb" data-notebook-title="Palmer Penguins (.ipynb)" data-notebook-cellId="cell-fig-bill-scatter">
-<div id="cell-fig-bill-scatter" class="cell" data-tags="[]" data-execution_count="8">
-<div id="fig-bill-scatter" class="cell-output cell-output-display quarto-figure quarto-figure-center quarto-float" data-execution_count="8">
-<figure class="quarto-float quarto-float-fig">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bill-marginal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Marginal distributions of bill dimensions
+</figcaption>
+</figure>
+</div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [7]:</pre></div><div id="69e80e21-0f40-4ade-8dc7-91a5e25c3a7e" class="cell" data-tags="[]" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>scale <span class="op">=</span> alt.Scale(domain <span class="op">=</span> [<span class="st">'Adelie'</span>, <span class="st">'Chinstrap'</span>, <span class="st">'Gentoo'</span>],</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>                  <span class="bu">range</span> <span class="op">=</span> colors)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div>
+<div class="cell-container"><div class="cell-decorator"><pre>In [8]:</pre></div><div id="cell-fig-bill-scatter" class="cell" data-tags="[]" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>alt.Chart(penguins).mark_circle(size<span class="op">=</span><span class="dv">60</span>).encode(</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    alt.X(<span class="st">'bill_length_mm'</span>,</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>        scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>    alt.Y(<span class="st">'bill_depth_mm'</span>,</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>        scale<span class="op">=</span>alt.Scale(zero<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>    color <span class="op">=</span> alt.Color(<span class="st">'species'</span>, scale <span class="op">=</span> scale),</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>    tooltip<span class="op">=</span>[<span class="st">'species'</span>, <span class="st">'sex'</span>, <span class="st">'island'</span>]</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="fig-bill-scatter" class="cell-output cell-output-display quarto-figure quarto-figure-center quarto-float anchored" data-execution_count="8">
+<figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-bill-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 
 <div id="altair-viz-3dc7764a9fe74e719651acdeb7f74f6e"></div>
@@ -540,65 +526,14 @@ Abbildung 2: A line plot on a polar axis
 </script>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bill-scatter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung 3: A scatterplot of bill dimensions for penguins, made with Altair.
+Abbildung&nbsp;2: A scatterplot of bill dimensions for penguins, made with Altair.
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
-</section>
-</section>
-<section id="eine-weitere-überschrift" class="level1">
-<h1>Eine weitere Überschrift</h1>
-<div class="{fig-mermaid}">
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p><figure class=''></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-  A[Hard edge] --&gt; B(Round edge)
-  B --&gt; C{Decision}
-  C --&gt; D[Result one]
-  C --&gt; E[Result two]
-</pre>
-</div>
-<p></figure></p>
-</div>
-</div>
-</div>
-<p>Ein beispielhaftes Diagramm.</p>
-</div>
-</section>
-<section id="bibliographie" class="level1">
-<h1>Bibliographie</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-altenhoner_nfdi4culture_2020" class="csl-entry" role="listitem">
-Altenhöner, Reinhard, Ina Blümel, Franziska Boehm, Jens Bove, Katrin Bicher, Christian Bracht, Ortrun Brand, u. a. 2020. <span>NFDI4Culture</span> - <span>Consortium</span> for research data on material and immaterial cultural heritage. <em>Research Ideas and Outcomes</em> 6 (Juli): e57036. doi:<a href="https://doi.org/10.3897/rio.6.e57036">10.3897/rio.6.e57036</a>, <a href="https://riojournal.com/article/57036/">https://riojournal.com/article/57036/</a> (zugegriffen: 20. Februar 2023).
-</div>
-<div id="ref-cremer_chimare_2018" class="csl-entry" role="listitem">
-Cremer, Fabian, Lisa Klaffki und Timo Steyer. 2018. Der <span>Chimäre</span> auf der <span>Spur</span>: <span>Forschungsdaten</span> in den <span>Geisteswissenschaften</span>. <em>o-bib. Das offene Bibliotheksjournal / Herausgeber VDB</em> (Juli): 142–162 Seiten. doi:<a href="https://doi.org/10.5282/O-BIB/2018H2S142-162">10.5282/O-BIB/2018H2S142-162</a>, <a href="https://www.o-bib.de/article/view/2018H2S142-162">https://www.o-bib.de/article/view/2018H2S142-162</a> (zugegriffen: 21. Februar 2023).
-</div>
-<div id="ref-karsdorp_humanities_2021" class="csl-entry" role="listitem">
-Karsdorp, Folgert, Mike Kestemont und Allen Riddell. 2021. <em>Humanities <span>Data</span> <span>Analysis</span>: <span>Case</span> <span>Studies</span> with <span>Python</span></em>. Princeton University Press. <a href="https://press.princeton.edu/books/hardcover/9780691172361/humanities-data-analysis">https://press.princeton.edu/books/hardcover/9780691172361/humanities-data-analysis</a> (zugegriffen: 19. Mai 2021).
-</div>
-<div id="ref-manovich_cultural_2020" class="csl-entry" role="listitem">
-Manovich, Lev. 2020. <em>Cultural <span>Analytics</span></em>. The MIT Press.
-</div>
-<div id="ref-zweig_algorithmus_2019" class="csl-entry" role="listitem">
-Zweig, Katharina A. 2019. <em>Ein <span>Algorithmus</span> hat kein <span>Taktgefühl</span>: <span>Wo</span> künstliche <span>Intelligenz</span> sich irrt, warum uns das betrifft und was wir dagegen tun können</em>. Heyne Verlag.
-</div>
-</div>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden" data-render-id="quarto-int-sidebar-title">HERMES</span> <span class="hidden" data-render-id="quarto-int-navbar-title">HERMES</span> <span class="hidden" data-render-id="quarto-int-navbar:Startseite">Startseite</span> <span class="hidden" data-render-id="quarto-int-navbar:/index.html">/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Formate">Formate</span> <span class="hidden" data-render-id="quarto-int-navbar:Bring-your-own-data-labs">Bring-your-own-data-labs</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/byod-labs/index.html">/formate/byod-labs/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Data Carpentries">Data Carpentries</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/carpentries/index.html">/formate/carpentries/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Data Challenges">Data Challenges</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/challenges/index.html">/formate/challenges/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Hermes Hub">Hermes Hub</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/hermes-hub/index.html">/formate/hermes-hub/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Kommunikationsformate">Kommunikationsformate</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/kommunikationsformate/index.html">/formate/kommunikationsformate/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Open Educational Resources">Open Educational Resources</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/oer/index.html">/formate/oer/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Forschungsstudienprogramm">Forschungsstudienprogramm</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/stipendien/index.html">/formate/stipendien/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Transferwerkstatt">Transferwerkstatt</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/transferwerkstatt/index.html">/formate/transferwerkstatt/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Virtual Wisskomm Academy">Virtual Wisskomm Academy</span> <span class="hidden" data-render-id="quarto-int-navbar:/formate/wisskomm/index.html">/formate/wisskomm/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Team">Team</span> <span class="hidden" data-render-id="quarto-int-navbar:/team/index.html">/team/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Veranstaltungen">Veranstaltungen</span> <span class="hidden" data-render-id="quarto-int-navbar:/veranstaltungen/index.html">/veranstaltungen/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Veranstaltungen eintragen">Veranstaltungen eintragen</span> <span class="hidden" data-render-id="quarto-int-navbar:/veranstaltungen/einreichen.html">/veranstaltungen/einreichen.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Hermes Blog">Hermes Blog</span> <span class="hidden" data-render-id="quarto-int-navbar:/blog/index.html">/blog/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Kontakt aufnehmen">Kontakt aufnehmen</span> <span class="hidden" data-render-id="quarto-int-navbar:/kontakt.html">/kontakt.html</span></p>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden" data-render-id="quarto-metatitle">HERMES - Ein datenwissenschaftlicher Blogbeitrag</span> <span class="hidden" data-render-id="quarto-twittercardtitle">HERMES - Ein datenwissenschaftlicher Blogbeitrag</span> <span class="hidden" data-render-id="quarto-ogcardtitle">HERMES - Ein datenwissenschaftlicher Blogbeitrag</span> <span class="hidden" data-render-id="quarto-metasitename">HERMES</span> <span class="hidden" data-render-id="quarto-twittercarddesc">Dieser Beitrag illustriert eine Reihe von Möglichkeiten, die bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren.</span> <span class="hidden" data-render-id="quarto-ogcardddesc">Dieser Beitrag illustriert eine Reihe von Möglichkeiten, die bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren.</span></p>
-</div>
-</section>
+</div></div>
 
-</main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+
+     </main> <!-- /main -->  <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -984,9 +919,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script>
-</div> <!-- /content -->
-
-</body>
-
-</html>
+</script>  </div> <!-- /content --> 
+  
+</body></html>

@@ -1,0 +1,40 @@
+[
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2024/01/index.html"
+    ]
+  },
+  {
+    "listing": "/veranstaltungen/index.html",
+    "items": [
+      "/veranstaltungen/intern/dhistory.html",
+      "/veranstaltungen/intern/fair.html",
+      "/veranstaltungen/intern/talks.html",
+      "/veranstaltungen/intern/visual.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/formate/byod-labs/index.html",
+      "/formate/carpentries/index.html",
+      "/formate/challenges/index.html",
+      "/formate/stipendien/index.html",
+      "/formate/hermes-hub/index.html",
+      "/formate/kommunikationsformate/index.html",
+      "/formate/oer/index.html",
+      "/formate/transferwerkstatt/index.html",
+      "/formate/wisskomm/index.html"
+    ]
+  },
+  {
+    "listing": "/team/index.html",
+    "items": [
+      "/team/rapp.html",
+      "/team/hagener.html",
+      "/team/lemaire.html",
+      "/team/schrade.html"
+    ]
+  }
+]
