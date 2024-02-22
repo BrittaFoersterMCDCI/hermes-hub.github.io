@@ -1,0 +1,15 @@
+```{=html}
+
+<div class="grid text-center" style="align-items: center;">
+    <% for (const item of items) { %>
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="<%= item.link %>" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid <%- item.fa %> fa-5x"></i>
+            <h4 style="margin-top: 0.25em;"><%= item.title %></h4>
+            <p><%= item.subtitle %></p>
+        </a>
+      </div>
+    <% } %>
+</div>
+
+```

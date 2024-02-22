@@ -16,17 +16,7 @@
   },
   {
     "listing": "/index.html",
-    "items": [
-      "/formate/byod-labs/index.html",
-      "/formate/carpentries/index.html",
-      "/formate/challenges/index.html",
-      "/formate/stipendien/index.html",
-      "/formate/hermes-hub/index.html",
-      "/formate/kommunikationsformate/index.html",
-      "/formate/oer/index.html",
-      "/formate/transferwerkstatt/index.html",
-      "/formate/wisskomm/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/team/index.html",

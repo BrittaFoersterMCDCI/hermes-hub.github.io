@@ -4,17 +4,8 @@ subtitle: "Humanities Education in Research, Data, and Methods"
 toc: false
 listing:
   - id: index
-    contents:
-      - formate/byod-labs/index.qmd
-      - formate/carpentries/index.qmd
-      - formate/challenges/index.qmd
-      - formate/hermes-hub/index.qmd
-      - formate/kommunikationsformate/index.qmd
-      - formate/oer/index.qmd
-      - formate/stipendien/index.qmd
-      - formate/transferwerkstatt/index.qmd
-      - formate/wisskomm/index.qmd 
-    type: grid
+    template: formate.ejs
+    contents: formate.yml
   - id: partner
     template: partner.ejs
     contents: partner.yml
@@ -25,12 +16,13 @@ listing:
 
 HERMES etabliert Orte des Lernens, Forschens und Vernetzens, an denen Datenkompetenzen in den Geistes- und Kulturwissenschaften vermittelt, weiterentwickelt und kritisch reflektiert werden. Hierzu konzipiert und erprobt HERMES folgende Formate:
 
+
 ## Formate
 
 ::: {#index}
 :::
 
-## Trägereinrichtungen
+## Partner
 
 ::: {#partner}
 :::

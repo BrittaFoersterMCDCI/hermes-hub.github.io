@@ -1,0 +1,36 @@
+- title: Bring-your-own-data-Labs
+  subtitle: Praxis- und forschungsorientierte Beratung zur Arbeit mit eigenen Daten
+  link: /formate/byod-labs/index.qmd
+  fa: fa-flask-vial
+- title: Data Carpentries
+  subtitle: Grundlagen datenorientierter Forschung vermitteln
+  link: /formate/carpentries/index.qmd
+  fa: fa-screwdriver-wrench
+- title: Data Challenges
+  subtitle: Geisteswissenschaftliche Datensätze und algorithmische Analyseverfahren
+  link: /formate/challenges/index.qmd
+  fa: fa-database
+- title: Hermes Hub
+  subtitle: Vernetzung zwischen Akteur:innen und Disziplinen mit Micropublikationen stärken
+  link: /formate/hermes-hub/index.qmd
+  fa: fa-pencil
+- title: Kommunikationsformate
+  subtitle: Über die Potenziale datengetriebener Forschung in den Geistes- und Kulturwissenschaften informieren
+  link: /formate/kommunikationsformate/index.qmd
+  fa: fa-comments
+- title: Open Educational Ressources
+  subtitle: HERMES entwickelt Lehr- und Lernmaterialien zur freien Nachnutzung
+  link: /formate/oer/index.qmd
+  fa: fa-book-open
+- title: Stipendienprogramm
+  subtitle: Forschungsstipendien für die Arbeit mit Daten im Kontext von HERMES
+  link: /formate/stipendien/index.qmd
+  fa: fa-people-group
+- title: Transferwerkstatt
+  subtitle: Datenkompetenzen mit wissenschaftsnahen Praxispartnern aus dem GLAM-Sektor anwenden und weiterentwickeln
+  link: /formate/transferwerkstatt/index.qmd
+  fa: fa-right-left
+- title: Virtual Wisskomm Academy
+  subtitle: Datengetriebene Forschung kommunikativ auf den Punkt bringen
+  link: /formate/wisskomm/index.qmd 
+  fa: fa-tower-cell

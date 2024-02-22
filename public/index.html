@@ -41,6 +41,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-link','listing-fa',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-subtitle","listing-link","listing-fa"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -327,269 +329,146 @@ window.Quarto = {
 <p>HERMES etabliert Orte des Lernens, Forschens und Vernetzens, an denen Datenkompetenzen in den Geistes- und Kulturwissenschaften vermittelt, weiterentwickelt und kritisch reflektiert werden. Hierzu konzipiert und erprobt HERMES folgende Formate:</p>
 <section id="formate" class="level2">
 <h2 class="anchored" data-anchor-id="formate">Formate</h2>
-<div id="listing-index" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1708422727863" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
-<a href="./formate/byod-labs/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/byod-labs/science-research.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bring-your-own-data-labs
-</h5>
-<div class="card-text listing-description">
-Praxis- und forschungsorientierte Beratung zur Arbeit mit eigenen Daten
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
+<div id="listing-index" class="quarto-listing quarto-listing-container-custom">
 
+<div class="grid text-center" style="align-items: center;">
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/byod-labs/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-flask-vial fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Bring-your-own-data-Labs</h4>
+            <p>Praxis- und forschungsorientierte Beratung zur Arbeit mit eigenen Daten</p>
+        </a>
+      </div>
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/carpentries/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-screwdriver-wrench fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Data Carpentries</h4>
+            <p>Grundlagen datenorientierter Forschung vermitteln</p>
+        </a>
+      </div>
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/challenges/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-database fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Data Challenges</h4>
+            <p>Geisteswissenschaftliche Datensätze und algorithmische Analyseverfahren</p>
+        </a>
+      </div>
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/hermes-hub/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-pencil fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Hermes Hub</h4>
+            <p>Vernetzung zwischen Akteur:innen und Disziplinen mit Micropublikationen stärken</p>
+        </a>
+      </div>
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/kommunikationsformate/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-comments fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Kommunikationsformate</h4>
+            <p>Über die Potenziale datengetriebener Forschung in den Geistes- und Kulturwissenschaften informieren</p>
+        </a>
+      </div>
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/oer/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-book-open fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Open Educational Ressources</h4>
+            <p>HERMES entwickelt Lehr- und Lernmaterialien zur freien Nachnutzung</p>
+        </a>
+      </div>
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/stipendien/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-people-group fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Stipendienprogramm</h4>
+            <p>Forschungsstipendien für die Arbeit mit Daten im Kontext von HERMES</p>
+        </a>
+      </div>
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/transferwerkstatt/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-right-left fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Transferwerkstatt</h4>
+            <p>Datenkompetenzen mit wissenschaftsnahen Praxispartnern aus dem GLAM-Sektor anwenden und weiterentwickeln</p>
+        </a>
+      </div>
+    
+      <div class="g-col-12 g-col-sm-6 g-col-md-4">
+        <a href="./formate/wisskomm/index.html" class="text-secondary" style="text-decoration: none;">
+            <i class="fa-solid fa-tower-cell fa-5x"></i>
+            <h4 style="margin-top: 0.25em;" class="anchored">Virtual Wisskomm Academy</h4>
+            <p>Datengetriebene Forschung kommunikativ auf den Punkt bringen</p>
+        </a>
+      </div>
+    
 </div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1708547504083" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
-<a href="./formate/carpentries/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/carpentries/carpentry.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Carpentries
-</h5>
-<div class="card-text listing-description">
-Grundlagen datenorientierter Forschung vermitteln
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
 
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1708422727860" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
-<a href="./formate/challenges/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/challenges/data-research.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Data Challenges
-</h5>
-<div class="card-text listing-description">
-Geisteswissenschaftliche Datensätze und algorithmische Analyseverfahren
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1708422727864" data-listing-reading-time-sort="1" data-listing-word-count-sort="105">
-<a href="./formate/stipendien/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/stipendien/pencil.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Forschungsstudienprogramm
-</h5>
-<div class="card-text listing-description">
-Forschungsstipendien für die Arbeit mit Daten im Kontext von HERMES
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1708422727862" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
-<a href="./formate/hermes-hub/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/hermes-hub/network-hub.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Hermes Hub
-</h5>
-<div class="card-text listing-description">
-Vernetzung zwischen Akteur:innen und Disziplinen mit Micropublikationen stärken
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-listing-file-modified-sort="1708422727860" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
-<a href="./formate/kommunikationsformate/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/kommunikationsformate/communication.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Kommunikationsformate
-</h5>
-<div class="card-text listing-description">
-Über die Potenziale datengetriebener Forschung in den Geistes- und Kulturwissenschaften informieren
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-file-modified-sort="1708422727863" data-listing-reading-time-sort="2" data-listing-word-count-sort="204">
-<a href="./formate/oer/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/oer/education.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Open Educational Resources
-</h5>
-<div class="card-text listing-description">
-HERMES entwickelt Lehr- und Lernmaterialien zur freien Nachnutzung
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-file-modified-sort="1708422727864" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
-<a href="./formate/transferwerkstatt/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/transferwerkstatt/file-transfer.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Transferwerkstatt
-</h5>
-<div class="card-text listing-description">
-Datenkompetenzen mit wissenschaftsnahen Praxispartnern aus dem GLAM-Sektor anwenden und weiterentwickeln
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-listing-file-modified-sort="1708422727864" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<a href="./formate/wisskomm/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./formate/wisskomm/knowledge-sharing.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Virtual Wisskomm Academy
-</h5>
-<div class="card-text listing-description">
-Datengetriebene Forschung kommunikativ auf den Punkt bringen
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
 <div class="listing-no-matching d-none">
 Keine Treffer
 </div>
 </div>
 </section>
-<section id="trägereinrichtungen" class="level2">
-<h2 class="anchored" data-anchor-id="trägereinrichtungen">Trägereinrichtungen</h2>
+<section id="partner" class="level2">
+<h2 class="anchored" data-anchor-id="partner">Partner</h2>
 <div id="listing-partner" class="quarto-listing quarto-listing-container-custom">
 
-<div class="grid text-center">
+<div class="grid text-center" style="align-items: center;">
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.uni-marburg.de/de">
-          <img class="img-fluid" src="./img/umrlogo.png" alt="Philipps-Universität Marburg">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/umrlogo.png" alt="Philipps-Universität Marburg">
         </a>
       </div>
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.adwmainz.de">
-          <img class="img-fluid" src="./img/adwlogo.jpg" alt="Akademie der Wissenschaften Mainz">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/adwlogo.jpg" alt="Akademie der Wissenschaften Mainz">
         </a>
       </div>
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.dnb.de">
-          <img class="img-fluid" src="./img/dnb.png" alt="Deutsche Nationalbibliothek">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/dnb.png" alt="Deutsche Nationalbibliothek">
         </a>
       </div>
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.h-da.de">
-          <img class="img-fluid" src="./img/hdalogo.png" alt="Hochschule Darmstadt">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/hdalogo.png" alt="Hochschule Darmstadt">
         </a>
       </div>
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.herder-institut.de">
-          <img class="img-fluid" src="./img/herderlogo.jpg" alt="Herder Institut für Ost-Mitteleuropaforschung">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/herderlogo.jpg" alt="Herder Institut für Ost-Mitteleuropaforschung">
         </a>
       </div>
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.hs-mainz.de">
-          <img class="img-fluid" src="./img/hsmainzlogo.png" alt="Hochschule Mainz">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/hsmainzlogo.png" alt="Hochschule Mainz">
         </a>
       </div>
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.ieg-mainz.de">
-          <img class="img-fluid" src="./img/ieglogo.jpg" alt="IEG Mainz">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/ieglogo.jpg" alt="IEG Mainz">
         </a>
       </div>
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.uni-trier.de">
-          <img class="img-fluid" src="./img/trier.png" alt="Universität Trier">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/trier.png" alt="Universität Trier">
         </a>
       </div>
     
       <div class="g-col-12 g-col-sm-6 g-col-md-4">
         <a href="https://www.tu-darmstadt.de">
-          <img class="img-fluid" src="./img/tudarmstadt.png" alt="TU Darmstadt">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/tudarmstadt.png" alt="TU Darmstadt">
         </a>
       </div>
     
@@ -604,17 +483,17 @@ Keine Treffer
 <h2 class="anchored" data-anchor-id="gefördert-durch">Gefördert durch</h2>
 <div id="listing-foerderung" class="quarto-listing quarto-listing-container-custom">
 
-<div class="grid text-center" style="--bs-gap: 1rem;">
+<div class="grid text-center" style="align-items: center;">
     
       <div class="g-col-12 g-col-md-6">
         <a href="https://www.bmbf.de/bmbf/de/home/home_node.html">
-          <img class="img-fluid" src="./img/logo_bmbf.jpg" alt="Bundesministerium für Bildung und Forschung">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/logo_bmbf.jpg" alt="Bundesministerium für Bildung und Forschung">
         </a>
       </div>
     
       <div class="g-col-12 g-col-md-6">
         <a href="https://european-union.europa.eu/live-work-study/funding-grants-subsidies_de">
-          <img class="img-fluid" src="./img/logo_eu.jpg" alt="Europäische Union">
+          <img class="img-fluid" style="max-width: 300px;" src="./img/logo_eu.jpg" alt="Europäische Union">
         </a>
       </div>
     
@@ -1018,6 +897,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
