@@ -1,9 +1,7 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/2024/01/index.html"
-    ]
+    "listing": "/index.html",
+    "items": []
   },
   {
     "listing": "/veranstaltungen/index.html",
@@ -15,8 +13,10 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": []
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2024/01/index.html"
+    ]
   },
   {
     "listing": "/team/index.html",
