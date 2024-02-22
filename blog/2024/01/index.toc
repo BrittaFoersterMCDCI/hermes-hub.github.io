@@ -1,0 +1,8 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Unser Blogbeitrag}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Überschrift 2}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Einbindung von Code und Notebooks}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Ein bisschen Python gefällig?}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Eine weitere Überschrift}{6}{section.3}%
+\contentsline {section}{\numberline {4}Bibliographie}{6}{section.4}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
