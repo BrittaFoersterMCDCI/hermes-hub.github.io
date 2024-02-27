@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Visualisation ">
+<meta name="author" content="Malte Hagener">
+<meta name="description" content="Dieser Beitrag illustriert eine Reihe von Möglichkeiten, die bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren.">
 
-<title>HERMES - Webinar: A Beginner’s Guide to Data Visualisation</title>
+<title>HERMES - Ein kurzer Blogbeitrag</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -82,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
-<link rel="stylesheet" href="../../layout/styles.css">
+<link rel="stylesheet" href="../../../layout/styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -92,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">HERMES</span>
     </a>
   </div>
@@ -103,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Startseite</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -112,45 +113,45 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-formate">    
         <li>
-    <a class="dropdown-item" href="../../formate/byod-labs/index.html">
+    <a class="dropdown-item" href="../../../formate/byod-labs/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-flask-vial" aria-label="flask-vial"></i> Bring-your-own-data-labs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../formate/carpentries/index.html">
+    <a class="dropdown-item" href="../../../formate/carpentries/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-screwdriver-wrench" aria-label="screwdriver-wrench"></i> Data Carpentries</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../formate/challenges/index.html">
+    <a class="dropdown-item" href="../../../formate/challenges/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-database" aria-label="database"></i> Data Challenges</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../formate/hermes-hub/index.html">
+    <a class="dropdown-item" href="../../../formate/hermes-hub/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-pencil" aria-label="pencil"></i> Hermes Hub</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../formate/kommunikationsformate/index.html">
+    <a class="dropdown-item" href="../../../formate/kommunikationsformate/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-comments" aria-label="comments"></i> Kommunikationsformate</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../formate/oer/index.html">
+    <a class="dropdown-item" href="../../../formate/oer/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-book-open" aria-label="book-open"></i> Open Educational Resources</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../formate/stipendien/index.html">
+    <a class="dropdown-item" href="../../../formate/stipendien/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-people-group" aria-label="people-group"></i> Forschungsstudienprogramm</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../formate/transferwerkstatt/index.html">
+    <a class="dropdown-item" href="../../../formate/transferwerkstatt/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-right-left" aria-label="right-left"></i> Transferwerkstatt</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../formate/wisskomm/index.html">
+    <a class="dropdown-item" href="../../../formate/wisskomm/index.html">
  <span class="dropdown-text"><i class="fa-solid fa-tower-cell" aria-label="tower-cell"></i> Virtual Wisskomm Academy</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../team/index.html"> 
+    <a class="nav-link" href="../../../team/index.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -159,21 +160,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-veranstaltungen">    
         <li>
-    <a class="dropdown-item" href="../../veranstaltungen/index.html">
+    <a class="dropdown-item" href="../../../veranstaltungen/index.html">
  <span class="dropdown-text">Veranstaltungen</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../veranstaltungen/einreichen.html">
+    <a class="dropdown-item" href="../../../veranstaltungen/einreichen.html">
  <span class="dropdown-text">Veranstaltungen eintragen</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/index.html"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Hermes Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../kontakt.html"> 
+    <a class="nav-link" href="../../../kontakt.html"> 
 <span class="menu-text">Kontakt aufnehmen</span></a>
   </li>  
 </ul>
@@ -184,44 +185,72 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#hallo-welt" id="toc-hallo-welt" class="nav-link active" data-scroll-target="#hallo-welt">Hallo Welt</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/hermes-hub/hermes-hub.github.io/edit/main/blog/2024/02/index.qmd" target="_blank" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/hermes-hub/hermes-hub.github.io/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Webinar: A Beginner’s Guide to Data Visualisation</h1>
-<p class="subtitle lead">Webinar</p>
+<h1 class="title">Ein kurzer Blogbeitrag</h1>
+<p class="subtitle lead">nur erstellt mit</p>
   <div class="quarto-categories">
-    <div class="quarto-category">digital digital</div>
-    <div class="quarto-category">digital humanities</div>
-    <div class="quarto-category">visualization</div>
+    <div class="quarto-category">Data Science</div>
+    <div class="quarto-category">Digital Humanities</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <a href="https://www.ghga.de/events/detail/webinar-a-beginners-guide-to-data-visualisation">Visualisation </a>
+    Dieser Beitrag illustriert eine Reihe von Möglichkeiten, die bei der Publikation von datenwissenschaftlichen Blogbeiträgen mit Quarto existieren.
   </div>
 </div>
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autor:in</div>
+  <div class="quarto-title-meta-heading">Zugehörigkeit</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://www.uni-marburg.de/de/fb09/medienwissenschaft/institut/personen-1/malte-hagener">Malte Hagener</a> <a href="mailto:malte.hagener@uni-marburg.de" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-4664-5536" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://www.uni-marburg.de">
+            Philipps-Universität Marburg
+            </a>
+          </p>
+      </div>
+  </div>
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">1. Juni 2025</p>
+      <p class="date">27. Februar 2024</p>
     </div>
   </div>
   
     
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.17175/2023_003">10.17175/2023_003</a>
+      </p>
+    </div>
+  </div>
   </div>
   
 
@@ -229,13 +258,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Effective communication of scientific results relies heavily on good data visualisation, whether we aim to communicate with a lay audience or other scientists.</p>
-<p>In this webinar, we will give an overview of good data visualisation practices and techniques and cover additional aspects like inclusive design choices, storytelling, and interactive visualizations. This webinar will mostly cover concepts, but not teach technical examples in specific coding languages. For a technical introduction, see the Data Visualisation in R and Python webinar in February 2024.</p>
-<p>This webinar aims at early career researchers, clinicians, bioinformaticians and everyone working on or interested in communicating scientific results through meaningful visualisations.</p>
-<p>The seminar will be given by GHGA workflows expert Florian Heyl.</p>
-<p>The event is in English and will be held on 18 January 2023, 16:00 CET (available afterwards on demand). Attendance is free, but we ask for registration.</p>
+<section id="hallo-welt" class="level1">
+<h1>Hallo Welt</h1>
+<p>Dies ist ein erster, kurzer Blogbeitrag, der über GitHub erstellt wurde.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -633,7 +661,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/hermes-hub/hermes-hub.github.io/edit/main/veranstaltungen/intern/visual.qmd" target="_blank" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/hermes-hub/hermes-hub.github.io/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/hermes-hub/hermes-hub.github.io/edit/main/blog/2024/02/index.qmd" target="_blank" class="toc-action"><i class="bi bi-github"></i>Seite editieren</a></li><li><a href="https://github.com/hermes-hub/hermes-hub.github.io/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Problem melden</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>Impressum</p>
 </div>
