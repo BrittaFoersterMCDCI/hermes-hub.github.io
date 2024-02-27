@@ -1,0 +1,29 @@
+[
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/veranstaltungen/index.html",
+    "items": [
+      "/veranstaltungen/intern/dhistory.html",
+      "/veranstaltungen/intern/fair.html",
+      "/veranstaltungen/intern/talks.html",
+      "/veranstaltungen/intern/visual.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/2024/01/index.html"
+    ]
+  },
+  {
+    "listing": "/team/index.html",
+    "items": [
+      "/team/rapp/index.html",
+      "/team/hagener/index.html",
+      "/team/schrade/index.html"
+    ]
+  }
+]
