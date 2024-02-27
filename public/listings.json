@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/veranstaltungen/index.html",
     "items": [
       "/veranstaltungen/intern/dhistory.html",
@@ -13,8 +9,13 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
+      "/blog/2024/02/index.html",
       "/blog/2024/01/index.html"
     ]
   },
