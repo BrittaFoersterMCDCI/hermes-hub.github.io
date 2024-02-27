@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/team/index.html",
+    "items": [
+      "/team/rapp/index.html",
+      "/team/hagener/index.html",
+      "/team/schrade/index.html"
+    ]
+  },
+  {
     "listing": "/veranstaltungen/index.html",
     "items": [
       "/veranstaltungen/intern/dhistory.html",
@@ -17,14 +25,6 @@
     "items": [
       "/blog/2024/02/index.html",
       "/blog/2024/01/index.html"
-    ]
-  },
-  {
-    "listing": "/team/index.html",
-    "items": [
-      "/team/rapp/index.html",
-      "/team/hagener/index.html",
-      "/team/schrade/index.html"
     ]
   }
 ]
