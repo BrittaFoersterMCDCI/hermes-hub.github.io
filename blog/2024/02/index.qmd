@@ -14,8 +14,6 @@ categories:
     - "Data Science"
     - "Digital Humanities"
 doi: 10.17175/2023_003
-citation: true
-csl: chicago-author-date-de.csl
 lang: de
 ---
 
