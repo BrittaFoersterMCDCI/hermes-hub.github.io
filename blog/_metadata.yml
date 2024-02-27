@@ -9,7 +9,3 @@ format:
     page-layout: article
     css: /layout/styles.css
     toc: true
-  pdf:
-    toc: true
-    number-sections: true
-    colorlinks: true
