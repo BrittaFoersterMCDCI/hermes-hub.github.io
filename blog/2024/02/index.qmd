@@ -19,4 +19,4 @@ lang: de
 
 # Hallo Welt
 
-Dies ist ein erster, kurzer Blogbeitrag, der über GitHub erstellt wurde.
+Dies ist ein erster, kurzer Blogbeitrag, der über GitHub erstellt wurde. Jetzt aber wirklich!
