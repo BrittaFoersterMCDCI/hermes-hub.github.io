@@ -1,5 +1,5 @@
 ---
-title: "Bring-your-own-data-labs"
+title: "{{< fa flask-vial >}} Bring-your-own-data-labs"
 image: science-research.png
 description: "Praxis- und forschungsorientierte Beratung zur Arbeit mit eigenen Daten"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Kommunikationsformate"
+title: "{{< fa comments >}} Kommunikationsformate"
 image: communication.png
 description: Über die Potenziale datengetriebener Forschung in den Geistes- und Kulturwissenschaften informieren
 ---

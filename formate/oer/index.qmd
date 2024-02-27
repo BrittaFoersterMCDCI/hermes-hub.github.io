@@ -1,5 +1,5 @@
 ---
-title: "Open Educational Resources"
+title: "{{< fa book-open >}} Open Educational Resources"
 image: education.png
 description: HERMES entwickelt Lehr- und Lernmaterialien zur freien Nachnutzung
 ---

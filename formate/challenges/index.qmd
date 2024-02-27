@@ -1,5 +1,5 @@
 ---
-title: "Data Challenges"
+title: "{{< fa database >}} Data Challenges"
 image: data-research.png
 description: Geisteswissenschaftliche Datensätze und algorithmische Analyseverfahren
 ---

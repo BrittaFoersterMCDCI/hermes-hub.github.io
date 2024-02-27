@@ -1,5 +1,5 @@
 ---
-title: "Transferwerkstatt"
+title: "{{< fa right-left>}} Transferwerkstatt"
 image: file-transfer.png
 description: Datenkompetenzen mit wissenschaftsnahen Praxispartnern aus dem GLAM-Sektor anwenden und weiterentwickeln
 ---

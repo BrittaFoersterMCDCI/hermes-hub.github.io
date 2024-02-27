@@ -1,5 +1,5 @@
 ---
-title: "Virtual Wisskomm Academy"
+title: "{{< fa tower-cell >}} Virtual Wisskomm Academy"
 image: knowledge-sharing.png
 description: Datengetriebene Forschung kommunikativ auf den Punkt bringen
 ---

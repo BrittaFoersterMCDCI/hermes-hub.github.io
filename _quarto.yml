@@ -32,8 +32,7 @@ website:
       - blog/index.qmd        
       - kontakt.qmd
   page-footer: 
-    center:
-      "{{< fa thumbs-up >}}"
+    right: Impressum
 
 format:
   html:

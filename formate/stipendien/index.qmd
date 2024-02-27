@@ -1,5 +1,5 @@
 ---
-title: "Forschungsstudienprogramm"
+title: "{{< fa people-group >}} Forschungsstudienprogramm"
 image: pencil.png
 description: Forschungsstipendien für die Arbeit mit Daten im Kontext von HERMES
 ---
