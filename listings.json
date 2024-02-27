@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/team/index.html",
+    "items": [
+      "/team/rapp/index.html",
+      "/team/hagener/index.html",
+      "/team/schrade/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": []
   },
@@ -16,14 +24,6 @@
     "listing": "/blog/index.html",
     "items": [
       "/blog/2024/01/index.html"
-    ]
-  },
-  {
-    "listing": "/team/index.html",
-    "items": [
-      "/team/rapp/index.html",
-      "/team/hagener/index.html",
-      "/team/schrade/index.html"
     ]
   }
 ]
