@@ -4,6 +4,9 @@ project:
 
 lang: de
 
+execute: 
+  freeze: auto
+
 website:
   title: "HERMES"
   comments: 
