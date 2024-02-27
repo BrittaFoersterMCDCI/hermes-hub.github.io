@@ -9,6 +9,9 @@ execute:
 
 website:
   title: "HERMES"
+  repo-url: https://github.com/hermes-hub/hermes-hub.github.io
+  repo-actions: [edit, issue]
+  repo-link-target: "_blank"
   comments: 
     hypothesis:
       openSidebar: false
