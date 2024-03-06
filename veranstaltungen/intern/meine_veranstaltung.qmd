@@ -6,6 +6,7 @@ description: <a href=https://fair-impact.eu/events/fair-impact-events/fair-pract
 categories: 
   - digital digital
   - digital humanities
-  - FAIR---
+  - FAIR
+---
 
 # Veranstaltungstitel
