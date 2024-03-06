@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -312,7 +312,7 @@ Weblink
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="digital,digital humanities,Berlin" data-listing-date-sort="1741651200000" data-listing-file-modified-sort="1709036883887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="420" data-listing-title-sort="Digital History" data-listing-filename-sort="dhistory.qmd">
+<tr data-index="0" data-categories="digital,digital humanities,Berlin" data-listing-date-sort="1741651200000" data-listing-file-modified-sort="1709717939663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="420" data-listing-title-sort="Digital History" data-listing-filename-sort="dhistory.qmd">
 <td>
 <span class="listing-date">11.03.2025</span>
 </td>
@@ -326,7 +326,7 @@ Weblink
 <span class="listing-description"><a href="https://dhistory.hypotheses.org/digital-history-forschungskolloquium/wintersemester-2023-2024">Digital Hisotry Website</a></span>
 </td>
 </tr>
-<tr data-index="1" data-categories="digital digital,digital humanities,FAIR" data-listing-date-sort="1764547200000" data-listing-file-modified-sort="1709036883887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143" data-listing-title-sort="FAIR Impact Events" data-listing-filename-sort="fair.qmd">
+<tr data-index="1" data-categories="digital digital,digital humanities,FAIR" data-listing-date-sort="1764547200000" data-listing-file-modified-sort="1709717939663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="143" data-listing-title-sort="FAIR Impact Events" data-listing-filename-sort="fair.qmd">
 <td>
 <span class="listing-date">01.12.2025</span>
 </td>
@@ -368,7 +368,7 @@ Weblink
 <span class="listing-description"><a href="https://nfdixcs.org/event/nfdixcs-workshop-containerize-software">Link</a></span>
 </td>
 </tr>
-<tr data-index="4" data-categories="digital digital,digital humanities,NFDI Talks" data-listing-date-sort="1748736000000" data-listing-file-modified-sort="1709036883887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="134" data-listing-title-sort="NFDI Talks" data-listing-filename-sort="talks.qmd">
+<tr data-index="4" data-categories="digital digital,digital humanities,NFDI Talks" data-listing-date-sort="1748736000000" data-listing-file-modified-sort="1709717939663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="134" data-listing-title-sort="NFDI Talks" data-listing-filename-sort="talks.qmd">
 <td>
 <span class="listing-date">01.06.2025</span>
 </td>
@@ -382,7 +382,7 @@ Weblink
 <span class="listing-description"><a href="https://www.nfdi.de/talks/">NFDI Talks </a></span>
 </td>
 </tr>
-<tr data-index="5" data-categories="digital digital,digital humanities,visualization" data-listing-date-sort="1748736000000" data-listing-file-modified-sort="1709036883887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137" data-listing-title-sort="Webinar: A Beginner's Guide to Data Visualisation" data-listing-filename-sort="visual.qmd">
+<tr data-index="5" data-categories="digital digital,digital humanities,visualization" data-listing-date-sort="1748736000000" data-listing-file-modified-sort="1709717939663" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137" data-listing-title-sort="Webinar: A Beginner's Guide to Data Visualisation" data-listing-filename-sort="visual.qmd">
 <td>
 <span class="listing-date">01.06.2025</span>
 </td>
@@ -486,6 +486,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/hermes-hub\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -520,7 +538,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
