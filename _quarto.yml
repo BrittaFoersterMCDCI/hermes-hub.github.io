@@ -32,9 +32,7 @@ website:
           - formate/wisskomm/index.qmd        
       - team/index.qmd        
       - text: Veranstaltungen
-        menu:
-          - veranstaltungen/index.qmd
-          - veranstaltungen/einreichen.qmd
+        file: veranstaltungen/index.qmd
       - blog/index.qmd        
       - kontakt.qmd
   page-footer: 
