@@ -33,7 +33,6 @@ website:
       - team/index.qmd        
       - text: Veranstaltungen
         file: veranstaltungen/index.qmd
-      - blog/index.qmd        
       - kontakt.qmd
   page-footer: 
     right: Impressum
