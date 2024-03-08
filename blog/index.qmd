@@ -1,6 +1,0 @@
----
-title: "Hermes Blog"
-listing:
-  contents: "*.qmd"
-  sort: "date desc"
----
