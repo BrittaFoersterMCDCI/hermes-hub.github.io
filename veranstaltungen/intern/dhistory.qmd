@@ -90,3 +90,5 @@ logo youtube  Auch in diesem Semester werden einige Vorträge aufgezeichnet und 
 *  Die Vorträge im Rahmen der Data for History Lectures werden in Kooperation mit dem “Data for History”-Konsortium organisiert. Dabei wird es vor allem um Themen wie Datenmodellierung, Semantic Web und Linked (Open) Data sowie die damit verbundenen Herausforderungen für die historische Forschung gehen. Sie sind als internationale Plattform für all jene gedacht, die sich für Fragen der Bereitstellung und Modellierung historischer Daten interessieren.
 
 Die wichtigsten Informationen rund um das Forschungskolloquium “Digital History” erhalten Sie bequem per E-Mail über die offene Mailingliste.
+
+Weitere Infos folgen in Kürze.
